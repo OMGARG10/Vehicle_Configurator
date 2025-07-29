@@ -1,0 +1,6 @@
+package com.example.repositories;
+
+@Repository
+public interface ManufacturerRepository extends JpaRepository<Manufacturer, Integer> {
+    Manufacturer findByMfgName(String mfgName);
+}

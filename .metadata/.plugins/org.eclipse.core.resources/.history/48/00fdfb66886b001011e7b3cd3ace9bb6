@@ -1,0 +1,14 @@
+package com.example.repositories;
+
+import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import com.example.entities.AlternateComponent;
+
+@Repository
+public interface AlternateComponentRepository extends JpaRepository<AlternateComponent, Integer> {
+    List<AlternateComponent> findByModel(Model model);
+    List<AlternateComponent> findByModelModelId(int modelId);
+    List<AlternateComponent> findByCompId(int compId);
+    List<AlternateComponent> findByAltCompId(int altCompId);
+}

@@ -1,0 +1,18 @@
+package com.example.controllers;
+
+@RestController
+@RequestMapping("/segment-mfg")
+public class SegmentManufacturerAssociationController {
+    @Autowired
+    private SegmentManufacturerAssociationService assocService;
+
+    @GetMapping
+    public List<SegmentManufacturerAssociation> getAllAssociations() {
+        return assocService.getAllAssociations();
+    }
+
+    @PostMapping
+    public SegmentManufacturerAssociation addAssociation(@RequestBody SegmentManufacturerAssociation association) {
+        return assocService.addAssociation(association);
+    }
+}

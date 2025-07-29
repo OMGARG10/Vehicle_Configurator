@@ -1,0 +1,16 @@
+package com.example.entities;
+
+@Entity
+@Table(name = "seg_mfg_association", uniqueConstraints = @UniqueConstraint(columnNames = {"seg_id", "mfg_id"}))
+public class SegmentManufacturerAssociation {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int segMfgAssocid;
+
+    @ManyToOne
+    private Segment segment;
+
+    @ManyToOne
+    private Manufacturer manufacturer;
+}
+

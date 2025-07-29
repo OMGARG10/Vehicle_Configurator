@@ -1,0 +1,30 @@
+package com.example.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.entities.VehicleDetail;
+import com.example.services.VehicleDetailService;
+
+@RestController
+@RequestMapping("/vehicle-details")
+public class VehicleDetailController {
+    @Autowired
+    private VehicleDetailService vehicleDetailService;
+
+    @GetMapping
+    public List<VehicleDetail> getAllVehicleDetails() {
+        return vehicleDetailService.getAllVehicleDetails();
+    }
+
+    @PostMapping
+    public VehicleDetail addVehicleDetail(@RequestBody VehicleDetail vehicleDetail) {
+        return vehicleDetailService.createVehicleDetail(vehicleDetail);
+    }
+}

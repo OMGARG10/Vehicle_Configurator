@@ -1,0 +1,21 @@
+package com.example.entities;
+
+@Entity
+@Table(name = "alternate_componentmaster")
+public class AlternateComponent {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int altId;
+
+    @ManyToOne
+    private Model model;
+
+    @ManyToOne
+    private Component baseComponent;
+
+    @ManyToOne
+    @JoinColumn(name = "alt_comp_id")
+    private Component alternateComponent;
+
+    private BigDecimal deltaPrice;
+}

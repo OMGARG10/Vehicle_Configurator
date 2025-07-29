@@ -1,0 +1,18 @@
+package com.example.controllers;
+
+@RestController
+@RequestMapping("/invoice-details")
+public class InvoiceDetailController {
+    @Autowired
+    private InvoiceDetailService invoiceDetailService;
+
+    @GetMapping
+    public List<InvoiceDetail> getAllInvoiceDetails() {
+        return invoiceDetailService.getAllInvoiceDetails();
+    }
+
+    @PostMapping
+    public InvoiceDetail addInvoiceDetail(@RequestBody InvoiceDetail invoiceDetail) {
+        return invoiceDetailService.addInvoiceDetail(invoiceDetail);
+    }
+}

@@ -1,0 +1,19 @@
+package com.example.entities;
+
+@Entity
+@Table(name = "invoice_header")
+public class InvoiceHeader {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int invId;
+
+    private LocalDateTime invDate;
+
+    @ManyToOne
+    private Model model;
+
+    private BigDecimal totalAmount;
+    private BigDecimal tax;
+    private BigDecimal finalAmount;
+    private String custDetails;
+}

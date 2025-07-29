@@ -1,0 +1,15 @@
+package com.example.services;
+
+@Service
+public class ComponentService {
+    @Autowired
+    private ComponentRepository componentRepository;
+
+    public List<Component> getAllComponents() {
+        return componentRepository.findAll();
+    }
+
+    public Component createComponent(Component component) {
+        return componentRepository.save(component);
+    }
+}

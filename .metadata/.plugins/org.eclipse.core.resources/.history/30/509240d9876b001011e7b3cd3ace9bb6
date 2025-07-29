@@ -1,0 +1,8 @@
+package com.example.repositories;
+
+@Repository
+public interface ModelRepository extends JpaRepository<Model, Integer> {
+    List<Model> findByManufacturer(Manufacturer manufacturer);
+    List<Model> findBySegment(Segment segment);
+    Model findByModelName(String modelName);
+}

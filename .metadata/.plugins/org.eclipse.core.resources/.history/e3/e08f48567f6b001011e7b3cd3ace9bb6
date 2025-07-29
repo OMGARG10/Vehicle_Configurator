@@ -1,0 +1,15 @@
+package com.example.services;
+
+@Service
+public class InvoiceHeaderService {
+    @Autowired
+    private InvoiceHeaderRepository invoiceHeaderRepository;
+
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderRepository.findAll();
+    }
+
+    public InvoiceHeader createInvoice(InvoiceHeader invoice) {
+        return invoiceHeaderRepository.save(invoice);
+    }
+}

@@ -1,0 +1,15 @@
+package com.example.services;
+
+@Service
+public class SegmentService {
+    @Autowired
+    private SegmentRepository segmentRepository;
+
+    public List<Segment> getAllSegments() {
+        return segmentRepository.findAll();
+    }
+
+    public Segment createSegment(Segment segment) {
+        return segmentRepository.save(segment);
+    }
+}

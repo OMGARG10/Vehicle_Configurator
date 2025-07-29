@@ -1,0 +1,7 @@
+package com.example.repositories;
+
+@Repository
+public interface InvoiceDetailRepository extends JpaRepository<InvoiceDetail, Integer> {
+    List<InvoiceDetail> findByInvoiceHeader(InvoiceHeader invoice);
+    List<InvoiceDetail> findByInvId(int invId);
+}

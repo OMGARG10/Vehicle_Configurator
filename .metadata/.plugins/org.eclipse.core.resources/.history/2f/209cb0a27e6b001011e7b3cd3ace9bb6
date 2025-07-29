@@ -1,0 +1,21 @@
+package com.example.services;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.entities.Manufacturer;
+import com.example.entities.Segment;
+
+@Service
+public class ManufacturerService {
+    @Autowired
+    private ManufacturerRepository manufacturerRepository;
+
+    public List<Manufacturer> getAllManufacturers() {
+        return manufacturerRepository.findAll();
+    }
+
+    public Manufacturer createManufacturer(Manufacturer manufacturer) {
+        return manufacturerRepository.save(manufacturer);
+    }
+}

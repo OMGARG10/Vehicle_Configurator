@@ -1,0 +1,9 @@
+package com.example.repositories;
+
+import org.springframework.stereotype.Repository;
+import com.example.entities.Manufacturer;
+
+@Repository
+public interface ManufacturerRepository extends JpaRepository<Manufacturer, Integer> {
+    Manufacturer findByMfgName(String mfgName);
+}
