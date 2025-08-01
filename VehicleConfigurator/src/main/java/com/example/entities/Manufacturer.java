@@ -1,4 +1,5 @@
 package com.example.entities;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,6 +13,7 @@ import jakarta.persistence.Table;
 public class Manufacturer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "mfg_id")
     private int mfgId;
     
     @Column(nullable = false, unique = true)
@@ -32,4 +34,5 @@ public class Manufacturer {
 	public void setMfgName(String mfgName) {
 		this.mfgName = mfgName;
 	}
+
 }

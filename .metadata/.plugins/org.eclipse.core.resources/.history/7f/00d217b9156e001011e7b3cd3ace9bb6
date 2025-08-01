@@ -1,0 +1,32 @@
+package com.example.services;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.entities.VehicleDetail;
+import com.example.repositories.VehicleDetailRepository;
+
+@Service
+public class VehicleDetailService {
+    @Autowired
+    private VehicleDetailRepository vehicleDetailRepository;
+
+    public List<VehicleDetail> getAllVehicleDetails() {
+        return vehicleDetailRepository.findAll();
+    }
+    
+    public List<VehicleDetail> getByModelId(int modelId) {
+        return vehicleDetailRepository.findByModelId(modelId);
+    }
+    
+    public List<VehicleDetail> getByIsConfigurable(char isConfigurable) {
+        return vehicleDetailRepository.findByIsConfigurable(isConfigurable);
+
+    public List<VehicleDetail> getConfigurableByModelId(int modelId) {
+        return vehicleDetailRepository.findByModelIdAndIsConfigurable(modelId, 'Y');
+    }
+
+    public VehicleDetail createVehicleDetail(VehicleDetail detail) {
+        return vehicleDetailRepository.save(detail);
+    }
+}

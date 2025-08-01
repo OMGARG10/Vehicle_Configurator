@@ -1,0 +1,67 @@
+package com.example.entities;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "vehicle_detail")
+public class VehicleDetail {
+
+    @Id
+    @Column(name = "config_id")
+    private int configId;
+
+    @Column(name = "model_id")
+    private int modelId;
+
+    @Column(name = "comp_id")
+    private int compId;
+
+    @Column(name = "comp_type")
+    private char compType;
+
+    @Column(name = "is_configurable")
+    private char isConfigurable;
+
+    public int getConfigId() {
+        return configId;
+    }
+
+    public void setConfigId(int configId) {
+        this.configId = configId;
+    }
+
+    public int getModelId() {
+        return modelId;
+    }
+
+    public void setModelId(int modelId) {
+        this.modelId = modelId;
+    }
+
+    public int getCompId() {
+        return compId;
+    }
+
+    public void setCompId(int compId) {
+        this.compId = compId;
+    }
+
+    public char getCompType() {
+        return compType;
+    }
+
+    public void setCompType(char compType) {
+        this.compType = compType;
+    }
+
+    public char getIsConfigurable() {
+        return isConfigurable;
+    }
+
+    public void setIsConfigurable(char isConfigurable) {
+        this.isConfigurable = isConfigurable;
+    }
+}

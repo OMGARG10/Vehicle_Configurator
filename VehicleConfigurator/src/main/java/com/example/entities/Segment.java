@@ -12,6 +12,7 @@ import jakarta.persistence.Table;
 public class Segment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "seg_id")
     private int segId;
     
     @Column(nullable = false, unique = true)
@@ -32,4 +33,5 @@ public class Segment {
 	public void setSegName(String segName) {
 		this.segName = segName;
 	}
+
 }

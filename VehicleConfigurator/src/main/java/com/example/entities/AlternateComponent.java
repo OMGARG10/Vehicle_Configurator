@@ -11,7 +11,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "alternate_componentmaster")
+@Table(name = "alternate_component_master")
 public class AlternateComponent {
 
     @Id
@@ -21,6 +21,16 @@ public class AlternateComponent {
     @ManyToOne
     @JoinColumn(name = "model_id")  // explicitly map FK
     private Model model;
+    
+    @ManyToOne
+    @JoinColumn(name = "comp_id")  // explicitly map base component FK
+    private Component baseComponent;
+
+    @ManyToOne
+    @JoinColumn(name = "alt_comp_id") // already correct
+    private Component alternateComponent;
+
+    private BigDecimal deltaPrice;
 
     public int getAltId() {
 		return altId;
@@ -61,16 +71,5 @@ public class AlternateComponent {
 	public void setDeltaPrice(BigDecimal deltaPrice) {
 		this.deltaPrice = deltaPrice;
 	}
-
-	@ManyToOne
-    @JoinColumn(name = "comp_id")  // explicitly map base component FK
-    private Component baseComponent;
-
-    @ManyToOne
-    @JoinColumn(name = "alt_comp_id") // already correct
-    private Component alternateComponent;
-
-    private BigDecimal deltaPrice;
-
     
 }
