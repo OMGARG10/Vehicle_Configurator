@@ -13,4 +13,6 @@ public interface VehicleDetailRepository extends JpaRepository<VehicleDetail, In
     List<VehicleDetail> findByModel_ModelId(int modelId);
     List<VehicleDetail> findByIsConfigurable(char isConfigurable);
     List<VehicleDetail> findByModel_ModelIdAndIsConfigurable(int modelId, char isConfigurable);
+    List<VehicleDetail> findByModel_ModelIdAndCompType(int modelId, char compType);
+
 }

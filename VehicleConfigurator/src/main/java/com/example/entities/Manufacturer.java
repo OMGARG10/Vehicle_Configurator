@@ -1,10 +1,15 @@
 package com.example.entities;
 
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 
@@ -18,6 +23,10 @@ public class Manufacturer {
     
     @Column(nullable = false, unique = true)
     private String mfgName;
+    
+    @OneToMany(mappedBy = "manufacturer")
+    @JsonBackReference
+    private List<Model> models;
 
     public int getMfgId() {
 		return mfgId;

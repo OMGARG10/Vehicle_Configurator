@@ -1,6 +1,4 @@
 package com.example.services;
-
-import java.math.BigDecimal;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +13,11 @@ import com.example.repositories.ModelRepository;
 public class ModelService {
     @Autowired
     private ModelRepository modelRepository;
+    
+    public ModelService(ModelRepository modelRepository) {
+        this.modelRepository = modelRepository;
+    }
+
 
     public List<Model> getAllModels() {
         return modelRepository.findAll();
@@ -23,33 +26,19 @@ public class ModelService {
     public Model createModel(Model model) {
         return modelRepository.save(model);
     }
-
-    public List<Model> getModelsByManufacturer(Manufacturer manufacturer) {
-        return modelRepository.findByManufacturer(manufacturer);
-    }
-
+    
     public List<Model> getModelsBySegment(Segment segment) {
         return modelRepository.findBySegment(segment);
     }
-
-    public Model getModelByName(String modelName) {
-        return modelRepository.findByModelName(modelName);
-    }
-
+    
     public List<Model> getModelsByManufacturerAndSegment(Manufacturer manufacturer, Segment segment) {
         return modelRepository.findByManufacturerAndSegment(manufacturer, segment);
     }
-
-    public List<Model> getModelsByPriceRange(BigDecimal min, BigDecimal max) {
-        return modelRepository.findByPriceBetween(min, max);
+    
+    public Model getFullModelDetails(int modelId) {
+        return modelRepository.findByModelId(modelId);
     }
 
-    public List<Model> getModelsWithMinQty(int qty) {
-        return modelRepository.findByMinQtyGreaterThanEqual(qty);
-    }
-
-    public List<Model> searchModelsByName(String keyword) {
-        return modelRepository.findByModelNameContainingIgnoreCase(keyword);
-    }
 }
+
 

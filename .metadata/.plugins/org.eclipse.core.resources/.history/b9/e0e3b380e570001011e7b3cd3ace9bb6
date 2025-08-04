@@ -1,0 +1,85 @@
+package com.example.controllers;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
+
+import com.example.entities.Manufacturer;
+import com.example.entities.Model;
+import com.example.entities.Segment;
+import com.example.services.ManufacturerService;
+import com.example.services.ModelService;
+import com.example.services.SegmentService;
+
+@RestController
+@RequestMapping("/models")
+public class ModelController {
+
+    @Autowired
+    private ModelService modelService;
+
+    @Autowired
+    private ManufacturerService manufacturerService;
+
+    @Autowired
+    private SegmentService segmentService;
+
+    @GetMapping
+    public List<Model> getAllModels() {
+        return modelService.getAllModels();
+    }
+
+    @PostMapping
+    public Model addModel(@RequestBody Model model) {
+        return modelService.createModel(model);
+    }
+
+    @GetMapping("/manufacturer/{id}")
+    public List<Model> getByManufacturer(@PathVariable int id) {
+        Manufacturer manufacturer = manufacturerService.getManufacturerById(id);
+        return modelService.getModelsByManufacturer(manufacturer);
+    }
+
+    @GetMapping("/by-segment/{segmentId}")
+    public List<Manufacturer> getManufacturersBySegment(@PathVariable int segmentId) {
+        Segment segment = segmentService.getSegmentById(segmentId);
+        if (segment == null) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Segment not found");
+        }
+        return modelService.getManufacturersBySegment(segment);
+    }
+
+
+    @GetMapping("/filter")
+    public List<Model> getModelsBySegmentAndManufacturer(
+            @RequestParam int segmentId,
+            @RequestParam int mfgId) {
+        return modelService.getModelsByManufacturerAndSegment(mfgId, segmentId);
+    }
+
+    @GetMapping("/name/{name}")
+    public Model getByName(@PathVariable String name) {
+        return modelService.getModelByName(name);
+    }
+
+    @GetMapping("/price-range")
+    public List<Model> getByPriceRange(
+        @RequestParam BigDecimal min,
+        @RequestParam BigDecimal max
+    ) {
+        return modelService.getModelsByPriceRange(min, max);
+    }
+
+    @GetMapping("/min-qty")
+    public List<Model> getByMinQty(@RequestParam int qty) {
+        return modelService.getModelsWithMinQty(qty);
+    }
+
+    @GetMapping("/search")
+    public List<Model> searchByName(@RequestParam String keyword) {
+        return modelService.searchModelsByName(keyword);
+    }
+}

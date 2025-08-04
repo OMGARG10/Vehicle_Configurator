@@ -25,6 +25,12 @@ public class VehicleDetailController {
     public List<VehicleDetail> getByIsConfigurable(@PathVariable char flag) {
         return service.getByIsConfigurable(flag);
     }
+    
+    @GetMapping("/default-config/{modelId}")
+    public List<VehicleDetail> getDefaultConfiguration(@PathVariable int modelId) {
+        return service.getDefaultConfigurationByModelId(modelId);
+    }
+
 
     @GetMapping("/model/{modelId}")
     public List<VehicleDetail> getByModelId(@PathVariable int modelId) {

@@ -29,6 +29,9 @@ public class VehicleDetailService {
     public List<VehicleDetail> getByIsConfigurable(char isConfigurable) {
         return repository.findByIsConfigurable(isConfigurable);
     }
+    public List<VehicleDetail> getDefaultConfigurationByModelId(int modelId) {
+        return repository.findByModel_ModelIdAndCompType(modelId, 'C');
+    }
 
     public VehicleDetail save(VehicleDetail vehicleDetail) {
         return repository.save(vehicleDetail);

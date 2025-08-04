@@ -1,11 +1,8 @@
 package com.example.controllers;
-
-import java.math.BigDecimal;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import com.example.entities.Manufacturer;
 import com.example.entities.Model;
 import com.example.entities.Segment;
@@ -19,12 +16,16 @@ public class ModelController {
 
     @Autowired
     private ModelService modelService;
-
-    @Autowired
-    private ManufacturerService manufacturerService;
-
+    
     @Autowired
     private SegmentService segmentService;
+    
+    @Autowired
+    private ManufacturerService manufacturerService;
+    
+    public ModelController(ModelService modelService) {
+        this.modelService = modelService;
+    }
 
     @GetMapping
     public List<Model> getAllModels() {
@@ -35,49 +36,22 @@ public class ModelController {
     public Model addModel(@RequestBody Model model) {
         return modelService.createModel(model);
     }
-
-    @GetMapping("/manufacturer/{id}")
-    public List<Model> getByManufacturer(@PathVariable int id) {
-        Manufacturer manufacturer = manufacturerService.getManufacturerById(id);
-        return modelService.getModelsByManufacturer(manufacturer);
-    }
-
-    @GetMapping("/segment/{id}")
-    public List<Model> getBySegment(@PathVariable int id) {
-        Segment segment = segmentService.getSegmentById(id);
-        return modelService.getModelsBySegment(segment);
-    }
-
-    @GetMapping("/name/{name}")
-    public Model getByName(@PathVariable String name) {
-        return modelService.getModelByName(name);
-    }
-
-    @GetMapping("/manufacturer-segment")
-    public List<Model> getByManufacturerAndSegment(
-        @RequestParam int manufacturerId,
-        @RequestParam int segmentId
-    ) {
-        Manufacturer manufacturer = manufacturerService.getManufacturerById(manufacturerId);
+    @GetMapping("/by-segment/{segmentId}")
+    public List<Model> getModelsBySegment(@PathVariable int segmentId) {
         Segment segment = segmentService.getSegmentById(segmentId);
+        return modelService.getModelsBySegment(segment); 
+    }
+    
+    @GetMapping("/by-segment/{segmentId}/manufacturer/{manufacturerId}")
+    public List<Model> getModelsBySegmentAndManufacturer(@PathVariable int segmentId,
+                                                        @PathVariable int manufacturerId) {
+        Segment segment = segmentService.getSegmentById(segmentId);
+        Manufacturer manufacturer = manufacturerService.getManufacturerById(manufacturerId);
         return modelService.getModelsByManufacturerAndSegment(manufacturer, segment);
-    } 
-
-    @GetMapping("/price-range")
-    public List<Model> getByPriceRange(
-        @RequestParam BigDecimal min,
-        @RequestParam BigDecimal max
-    ) {
-        return modelService.getModelsByPriceRange(min, max);
     }
-
-    @GetMapping("/min-qty")
-    public List<Model> getByMinQty(@RequestParam int qty) {
-        return modelService.getModelsWithMinQty(qty);
+    @GetMapping("/default/{modelId}")
+    public Model getDefaultConfiguration(@PathVariable int modelId) {
+        return modelService.getFullModelDetails(modelId);
     }
-
-    @GetMapping("/search")
-    public List<Model> searchByName(@RequestParam String keyword) {
-        return modelService.searchModelsByName(keyword);
-    }
+    
 }

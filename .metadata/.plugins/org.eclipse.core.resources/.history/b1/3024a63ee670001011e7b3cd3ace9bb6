@@ -1,0 +1,32 @@
+import java.util.Optional;
+
+@Service
+public class SegmentService {
+    @Autowired
+    private SegmentRepository segmentRepository;
+
+    public List<Segment> getAllSegments() {
+        return segmentRepository.findAll();
+    }
+
+    public Segment getSegmentById(int segId) {
+        Optional<Segment> optionalSegment = segmentRepository.findById(segId);
+        if (optionalSegment.isPresent()) {
+            return optionalSegment.get();
+        } else {
+            throw new RuntimeException("Segment not found with id " + segId);
+        }
+    }
+
+    public Segment getSegmentByName(String segName) {
+        Segment segment = segmentRepository.findBySegName(segName);
+        if (segment == null) {
+            throw new RuntimeException("Segment not found with name " + segName);
+        }
+        return segment;
+    }
+
+    public Segment createSegment(Segment segment) {
+        return segmentRepository.save(segment);
+    }
+}

@@ -16,6 +16,14 @@ public class InvoiceHeader {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int invId;
+    
+    @ManyToOne
+    private Model model;
+
+    private BigDecimal totalAmount;
+    private BigDecimal tax;
+    private BigDecimal finalAmount;
+    private String custDetails;
 
     private LocalDateTime invDate;
 
@@ -61,11 +69,4 @@ public class InvoiceHeader {
 	public void setCustDetails(String custDetails) {
 		this.custDetails = custDetails;
 	}
-	@ManyToOne
-    private Model model;
-
-    private BigDecimal totalAmount;
-    private BigDecimal tax;
-    private BigDecimal finalAmount;
-    private String custDetails;
 }

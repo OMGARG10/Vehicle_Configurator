@@ -2,8 +2,7 @@ package com.example.entities;
 
 import java.math.BigDecimal;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
@@ -19,14 +18,22 @@ public class Model {
     private String modelName;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-    @JoinColumn(name = "mfg_id", referencedColumnName = "mfg_id")
-    private Manufacturer manufacturer;
+    @JoinColumn(name = "seg_id")
+    @JsonIgnore
+    private Segment segment;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-    @JoinColumn(name = "seg_id", referencedColumnName = "seg_id")
-    private Segment segment;
+    @JoinColumn(name = "mfg_id")
+    @JsonIgnore
+    private Manufacturer manufacturer;
+    
+    public Integer getMfgId() {
+        return manufacturer != null ? manufacturer.getMfgId() : null;
+    }
+
+    public Integer getSegId() {
+        return segment != null ? segment.getSegId() : null;
+    }
 
     @Column(name = "min_qty")
     private int minQty;

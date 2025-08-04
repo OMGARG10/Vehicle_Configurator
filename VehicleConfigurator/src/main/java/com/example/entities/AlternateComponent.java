@@ -1,7 +1,6 @@
 package com.example.entities;
 
 import java.math.BigDecimal;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,15 +18,15 @@ public class AlternateComponent {
     private int altId;
 
     @ManyToOne
-    @JoinColumn(name = "model_id")  // explicitly map FK
+    @JoinColumn(name = "model_id")  
     private Model model;
     
     @ManyToOne
-    @JoinColumn(name = "comp_id")  // explicitly map base component FK
+    @JoinColumn(name = "comp_id")  
     private Component baseComponent;
 
     @ManyToOne
-    @JoinColumn(name = "alt_comp_id") // already correct
+    @JoinColumn(name = "alt_comp_id") 
     private Component alternateComponent;
 
     private BigDecimal deltaPrice;
