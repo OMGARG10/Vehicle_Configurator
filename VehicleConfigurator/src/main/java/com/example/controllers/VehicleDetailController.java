@@ -2,11 +2,14 @@ package com.example.controllers;
 
 import com.example.entities.VehicleDetail;
 import com.example.services.VehicleDetailService;
+
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/vehicle_detail")
 public class VehicleDetailController {
 
@@ -26,11 +29,12 @@ public class VehicleDetailController {
         return service.getByIsConfigurable(flag);
     }
     
-    @GetMapping("/default-config/{modelId}")
-    public List<VehicleDetail> getDefaultConfiguration(@PathVariable int modelId) {
-        return service.getDefaultConfigurationByModelId(modelId);
+    @GetMapping("/default/{modelId}")
+    public ResponseEntity<List<VehicleDetail>> getDefaultConfiguration(@PathVariable int modelId) {
+        List<VehicleDetail> config = service.getDefaultConfiguration(modelId);
+        return ResponseEntity.ok(config);
     }
-
+    
 
     @GetMapping("/model/{modelId}")
     public List<VehicleDetail> getByModelId(@PathVariable int modelId) {

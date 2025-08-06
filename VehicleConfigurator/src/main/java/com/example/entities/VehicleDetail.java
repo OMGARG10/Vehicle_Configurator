@@ -1,7 +1,6 @@
 package com.example.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -14,13 +13,12 @@ public class VehicleDetail {
     private int configId;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnore
     @JoinColumn(name = "model_id", nullable = false)
+    @JsonIgnore // Prevent cyclic reference when serializing
     private Model model;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnore
-    @JoinColumn(name = "comp_id", nullable = false)
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "comp_id", referencedColumnName = "comp_id")
     private Component component;
 
     @Column(name = "comp_type", nullable = false)
@@ -29,8 +27,10 @@ public class VehicleDetail {
     @Column(name = "is_configurable", nullable = false)
     private char isConfigurable;
 
-    // Getters and setters
+    // Constructors
+    public VehicleDetail() {}
 
+    // Getters and Setters
     public int getConfigId() {
         return configId;
     }

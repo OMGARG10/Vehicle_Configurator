@@ -28,6 +28,11 @@ public class ManufacturerController {
     public Manufacturer getManufacturerById(@PathVariable int mfgId) {
         return manufacturerService.getManufacturerById(mfgId);
     }
+    
+    @GetMapping("/by-segment/{segId}")
+    public List<Manufacturer> getManufacturersBySegment(@PathVariable int segId) {
+        return manufacturerService.getManufacturersBySegmentId(segId);
+    }
 
     @GetMapping("/name/{mfgName}")
     public Manufacturer getManufacturerByName(@PathVariable String mfgName) {

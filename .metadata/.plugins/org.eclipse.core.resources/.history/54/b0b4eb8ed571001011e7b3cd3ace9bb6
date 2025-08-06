@@ -1,0 +1,30 @@
+package com.example.services;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.entities.AlternateComponent;
+import com.example.repositories.AlternateComponentRepository;
+import com.example.repositories.VehicleDetailRepository;
+
+@Service
+public class AlternateComponentService {
+    @Autowired
+    private AlternateComponentRepository altCompRepository;
+    
+    @Autowired
+    private VehicleDetailRepository vehicleDetailRepository;
+
+    public List<AlternateComponent> getAllAlternateComponents() {
+        return altCompRepository.findAll();
+    }
+    
+    public List<AlternateComponent> getAlternatesByComponentId(Integer compId) {
+        return altCompRepository.findByBaseComponentCompId(compId);
+    }
+
+    public AlternateComponent addAlternateComponent(AlternateComponent altComp) {
+        return altCompRepository.save(altComp);
+    }
+    
+}

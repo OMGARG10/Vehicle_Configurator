@@ -1,6 +1,7 @@
 package com.example.entities;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -17,15 +18,30 @@ public class Model {
     @Column(name = "model_name")
     private String modelName;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "seg_id")
+//    @JsonIgnore
+//    private Segment segment;
+//
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "mfg_id")
+//    @JsonIgnore
+//    private Manufacturer manufacturer;
+    
+ // Manufacturer relation
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "mfg_id")
+    private Manufacturer manufacturer;
+
+    // Segment relation
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "seg_id")
-    @JsonIgnore
     private Segment segment;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "mfg_id")
-    @JsonIgnore
-    private Manufacturer manufacturer;
+    // Default components linked to this model (transient, set in service)
+    @OneToMany(mappedBy = "model", cascade = CascadeType.ALL)
+    private List<VehicleDetail> defaultComponents;
+
     
     public Integer getMfgId() {
         return manufacturer != null ? manufacturer.getMfgId() : null;
@@ -59,6 +75,7 @@ public class Model {
     public void setModelName(String modelName) {
         this.modelName = modelName;
     }
+
 
     public Manufacturer getManufacturer() {
         return manufacturer;
@@ -99,4 +116,8 @@ public class Model {
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
     }
+    
+    public List<VehicleDetail> getDefaultComponents() { return defaultComponents; }
+    public void setDefaultComponents(List<VehicleDetail> defaultComponents) { this.defaultComponents = defaultComponents; }
+
 }

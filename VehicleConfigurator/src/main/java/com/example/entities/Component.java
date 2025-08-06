@@ -11,14 +11,14 @@ import jakarta.persistence.Table;
 @Table(name = "component_master")
 public class Component {
 
-    @Id
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "comp_id") 
     private int compId;
 
-    @Column(name = "comp_name")  // Optional if field name matches column name
+    @Column(name = "comp_name")  
     private String compName;
 
-    // No-arg constructor (required by JPA)
     public Component() {}
 
     // Getters and Setters

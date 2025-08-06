@@ -1,0 +1,70 @@
+package com.example.services;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.entities.AlternateComponent;
+import com.example.entities.VehicleDetail;
+import com.example.repositories.AlternateComponentRepository;
+import com.example.repositories.VehicleDetailRepository;
+
+@Service
+public class AlternateComponentService {
+
+    @Autowired
+    private AlternateComponentRepository altCompRepository;
+
+    @Autowired
+    private VehicleDetailRepository vehicleDetailRepository;
+
+    // Fetch all alternate components
+    public List<AlternateComponent> getAllAlternateComponents() {
+        return altCompRepository.findAll();
+    }
+
+    // Fetch alternate components for a specific component ID
+    public List<AlternateComponent> getAlternatesByComponentId(Integer compId) {
+        return altCompRepository.findByBaseComponentCompId(compId);
+    }
+
+    // Fetch alternates grouped by component type (C, I, E) for a given modelId
+    public Map<Character, Map<Integer, List<AlternateComponent>>> getGroupedAlternatesByModel(Integer modelId) {
+        // 1. Get all configurable components for the model (isConfigurable = 'Y')
+        List<VehicleDetail> configurableComponents = vehicleDetailRepository
+                .findByModelModelIdAndIsConfigurable(modelId, "Y");
+
+        // 2. Group components by compType (C, I, E) and get list of compIds
+        Map<Character, List<Integer>> compIdsByType = configurableComponents.stream()
+                .collect(Collectors.groupingBy(
+                        VehicleDetail::getCompType,
+                        Collectors.mapping(vd -> vd.getComponent().getCompId(), Collectors.toList())
+                ));
+
+        // 3. For each compType and each compId get alternate components
+        Map<Character, Map<Integer, List<AlternateComponent>>> result = new HashMap<>();
+
+        for (Map.Entry<Character, List<Integer>> entry : compIdsByType.entrySet()) {
+            Character compType = entry.getKey();
+            List<Integer> compIds = entry.getValue();
+
+            Map<Integer, List<AlternateComponent>> altMap = new HashMap<>();
+            for (Integer compId : compIds) {
+                List<AlternateComponent> alternates = altCompRepository.findByBaseComponentCompId(compId);
+                altMap.put(compId, alternates);
+            }
+            result.put(compType, altMap);
+        }
+
+        return result;
+    }
+
+    // Save a new alternate component
+    public AlternateComponent addAlternateComponent(AlternateComponent altComp) {
+        return altCompRepository.save(altComp);
+    }
+}

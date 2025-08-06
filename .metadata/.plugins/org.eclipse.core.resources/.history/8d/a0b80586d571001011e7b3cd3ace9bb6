@@ -1,0 +1,33 @@
+package com.example.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import com.example.entities.AlternateComponent;
+import com.example.services.AlternateComponentService;
+
+@RestController
+@RequestMapping("/alternate-components")
+public class AlternateComponentController {
+
+    @Autowired
+    private AlternateComponentService alternateComponentService;
+
+    @GetMapping("/component/{compId}")
+    public ResponseEntity<List<AlternateComponent>> getAlternatesByComponent(@PathVariable Integer compId) {
+        List<AlternateComponent> alternates = alternateComponentService.getAlternatesByComponentId(compId);
+        if (alternates.isEmpty()) {
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(alternates);
+    }
+    
+
+    @PostMapping
+    public AlternateComponent addAlternateComponent(@RequestBody AlternateComponent altComp) {
+        return alternateComponentService.addAlternateComponent(altComp);
+    }
+}

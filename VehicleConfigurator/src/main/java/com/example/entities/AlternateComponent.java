@@ -1,6 +1,9 @@
 package com.example.entities;
 
 import java.math.BigDecimal;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,10 +21,12 @@ public class AlternateComponent {
     private int altId;
 
     @ManyToOne
+    @JsonIgnore
     @JoinColumn(name = "model_id")  
     private Model model;
     
     @ManyToOne
+    @JsonIgnore
     @JoinColumn(name = "comp_id")  
     private Component baseComponent;
 

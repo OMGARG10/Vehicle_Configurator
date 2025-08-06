@@ -26,4 +26,8 @@ public class ManufacturerService {
         return manufacturerRepository.save(manufacturer);
     }
     
+    public List<Manufacturer> getManufacturersBySegmentId(int segId) {
+        return manufacturerRepository.findDistinctByModelsSegmentSegId(segId);
+    }
+    
 }

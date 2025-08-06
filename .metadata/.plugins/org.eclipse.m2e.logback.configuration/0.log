@@ -1595,3 +1595,642 @@
 2025-08-04 12:26:23,623 [Worker-519: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-08-04 12:26:23,695 [Worker-519: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
 2025-08-04 12:26:23,709 [Worker-519: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 12:54:04,635 [Worker-529: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:54:04,716 [Worker-529: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 12:54:04,732 [Worker-529: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 12:55:45,172 [Worker-531: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:55:45,217 [Worker-531: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 12:55:45,237 [Worker-531: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 12:56:09,324 [Worker-535: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:56:09,361 [Worker-535: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 12:56:09,380 [Worker-535: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 12:59:05,264 [Worker-537: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 12:59:05,300 [Worker-537: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 12:59:05,315 [Worker-537: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:06:03,732 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:06:03,912 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:06:03,930 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:07:19,263 [Worker-541: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:07:19,431 [Worker-541: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:07:19,452 [Worker-541: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:07:37,913 [Worker-541: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:07:37,998 [Worker-541: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:07:38,023 [Worker-541: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:09:26,862 [Worker-540: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:09:27,017 [Worker-540: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:09:27,038 [Worker-540: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:10:01,556 [Worker-546: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:10:01,621 [Worker-546: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:10:01,638 [Worker-546: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:10:09,538 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:10:09,557 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:10:09,582 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:10:16,142 [Worker-540: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:10:16,190 [Worker-540: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:10:16,208 [Worker-540: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 14:10:57,157 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 14:10:57,195 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 14:10:57,224 [Worker-542: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:03:11,587 [Worker-548: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:03:11,625 [Worker-548: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:03:11,644 [Worker-548: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:03:17,660 [Worker-547: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:03:17,682 [Worker-547: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:03:17,695 [Worker-547: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:03:35,472 [Worker-546: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:03:35,526 [Worker-546: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:03:35,540 [Worker-546: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:05:20,526 [Worker-550: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:05:20,558 [Worker-550: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:05:20,570 [Worker-550: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:09:05,120 [Worker-551: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:09:05,210 [Worker-551: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:09:05,223 [Worker-551: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:15:45,105 [Worker-555: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:15:45,142 [Worker-555: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:15:45,189 [Worker-555: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:17:17,099 [Worker-557: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:17:17,138 [Worker-557: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:17:17,151 [Worker-557: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:17:30,891 [Worker-558: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:17:30,936 [Worker-558: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:17:30,958 [Worker-558: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:18:04,599 [Worker-554: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:18:04,635 [Worker-554: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:18:04,646 [Worker-554: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:18:28,273 [Worker-557: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:18:28,289 [Worker-557: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:18:28,305 [Worker-557: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:19:24,317 [Worker-554: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:19:24,330 [Worker-554: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:19:24,343 [Worker-554: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:20:16,661 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:20:16,675 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:20:16,688 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:20:53,850 [Worker-556: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:20:53,862 [Worker-556: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:20:53,873 [Worker-556: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:21:24,661 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:21:24,682 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:21:24,694 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:21:35,066 [Worker-556: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:21:35,154 [Worker-556: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:21:35,168 [Worker-556: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 15:23:20,055 [Worker-561: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 15:23:20,085 [Worker-561: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 15:23:20,103 [Worker-561: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:02:09,551 [Worker-566: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:02:09,643 [Worker-566: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:02:09,654 [Worker-566: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:02:42,111 [Worker-567: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:02:42,157 [Worker-567: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:02:42,174 [Worker-567: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:15:06,294 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:15:06,336 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:15:06,350 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:15:54,557 [Worker-569: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:15:54,596 [Worker-569: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:15:54,611 [Worker-569: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:17:53,367 [Worker-572: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:17:53,391 [Worker-572: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:17:53,405 [Worker-572: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:19:15,644 [Worker-573: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:19:15,655 [Worker-573: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:19:15,667 [Worker-573: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:19:31,115 [Worker-572: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:19:31,150 [Worker-572: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:19:31,160 [Worker-572: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:20:53,418 [Worker-576: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:20:53,430 [Worker-576: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:20:53,443 [Worker-576: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:23:46,612 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:23:46,635 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:23:46,648 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:24:33,287 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:24:33,323 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:24:33,358 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:24:35,434 [Worker-577: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:24:35,459 [Worker-577: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:24:35,476 [Worker-577: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:24:53,930 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:24:53,951 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:24:53,968 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:25:57,152 [Worker-578: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:25:57,171 [Worker-578: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:25:57,181 [Worker-578: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 16:26:29,393 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 16:26:29,403 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 16:26:29,417 [Worker-559: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 18:51:34,406 [Worker-583: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 18:51:34,899 [Worker-583: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 18:51:34,913 [Worker-583: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 18:51:52,680 [Worker-584: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 18:51:52,698 [Worker-584: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 18:51:52,709 [Worker-584: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 18:53:47,890 [Worker-585: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 18:53:47,911 [Worker-585: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 18:53:47,938 [Worker-585: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 18:59:25,575 [Worker-582: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 18:59:25,711 [Worker-582: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 18:59:25,726 [Worker-582: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 18:59:35,471 [Worker-591: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 18:59:35,492 [Worker-591: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 18:59:35,505 [Worker-591: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:00:34,110 [Worker-592: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:00:34,154 [Worker-592: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:00:34,170 [Worker-592: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:00:40,298 [Worker-592: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:00:40,344 [Worker-592: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:00:40,359 [Worker-592: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:01:02,029 [Worker-586: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:01:02,093 [Worker-586: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:01:02,132 [Worker-586: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:01:37,489 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:01:37,512 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:01:37,528 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:27:20,468 [Worker-601: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:27:20,551 [Worker-601: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:27:20,570 [Worker-601: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:28:35,938 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:28:35,974 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:28:35,987 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:29:50,636 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:29:50,655 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:29:50,674 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:32:26,325 [Worker-609: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:32:26,345 [Worker-609: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:32:26,358 [Worker-609: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:32:55,123 [Worker-608: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:32:55,138 [Worker-608: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:32:55,150 [Worker-608: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:33:17,726 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:33:17,806 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:33:17,816 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:34:00,081 [Worker-610: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:34:00,094 [Worker-610: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:34:00,129 [Worker-610: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:44:03,542 [Worker-614: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:44:03,700 [Worker-614: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:44:03,720 [Worker-614: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:44:42,113 [Worker-614: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:44:42,142 [Worker-614: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:44:42,158 [Worker-614: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:45:31,135 [Worker-613: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:45:31,155 [Worker-613: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:45:31,168 [Worker-613: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:46:02,158 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:46:02,170 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:46:02,184 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:46:45,909 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:46:45,944 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:46:45,956 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:47:39,280 [Worker-615: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:47:39,299 [Worker-615: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:47:39,311 [Worker-615: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:48:43,022 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:48:43,052 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:48:43,065 [Worker-612: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:49:27,425 [Worker-616: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:49:27,435 [Worker-616: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:49:27,447 [Worker-616: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:51:10,199 [Worker-617: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:51:10,221 [Worker-617: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:51:10,236 [Worker-617: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-04 19:52:20,759 [Worker-617: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-04 19:52:20,770 [Worker-617: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-04 19:52:20,784 [Worker-617: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:23:01,345 [Worker-621: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:23:01,376 [Worker-621: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:23:01,389 [Worker-621: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:23:34,821 [Worker-624: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:23:34,840 [Worker-624: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:23:34,856 [Worker-624: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:24:01,297 [Worker-623: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:24:01,318 [Worker-623: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:24:01,330 [Worker-623: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:24:35,140 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:24:35,156 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:24:35,174 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:25:55,635 [Worker-624: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:25:55,653 [Worker-624: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:25:55,666 [Worker-624: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:26:37,377 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:26:37,399 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:26:37,414 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:26:53,852 [Worker-626: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:26:53,898 [Worker-626: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:26:53,912 [Worker-626: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:31:00,089 [Worker-628: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:31:00,125 [Worker-628: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:31:00,200 [Worker-628: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:32:02,852 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:32:02,873 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:32:02,889 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:32:54,269 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:32:54,344 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:32:54,360 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:36:51,801 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:36:51,852 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:36:51,864 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:40:32,598 [Worker-628: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:40:32,644 [Worker-628: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:40:32,659 [Worker-628: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:40:37,357 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:40:37,374 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:40:37,385 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:41:11,438 [Worker-632: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:41:11,465 [Worker-632: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:41:11,481 [Worker-632: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 08:41:17,170 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 08:41:17,188 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 08:41:17,203 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 09:56:29,185 [Worker-637: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 09:56:29,395 [Worker-637: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 09:56:29,436 [Worker-637: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 09:56:36,699 [Worker-641: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 09:56:36,849 [Worker-641: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 09:56:36,860 [Worker-641: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 09:57:26,847 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 09:57:26,972 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 09:57:26,985 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 09:57:37,969 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 09:57:37,993 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 09:57:38,005 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 09:58:14,366 [Worker-640: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 09:58:14,381 [Worker-640: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 09:58:14,397 [Worker-640: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:05:37,304 [Worker-646: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:05:37,348 [Worker-646: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:05:37,363 [Worker-646: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:05:45,318 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:05:45,352 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:05:45,364 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:05:52,662 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:05:52,782 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:05:52,794 [Worker-638: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:17:33,667 [Worker-646: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:17:33,791 [Worker-646: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:17:33,813 [Worker-646: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:17:55,738 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:17:55,776 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:17:55,787 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:18:29,658 [Worker-641: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:18:29,672 [Worker-641: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:18:29,685 [Worker-641: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:18:44,467 [Worker-657: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:18:44,501 [Worker-657: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:18:44,516 [Worker-657: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:18:59,081 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:18:59,130 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:18:59,143 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:19:05,875 [Worker-654: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:19:05,894 [Worker-654: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:19:05,905 [Worker-654: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:22:43,156 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:22:43,210 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:22:43,224 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:23:14,812 [Worker-657: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:23:14,831 [Worker-657: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:23:14,842 [Worker-657: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:25:09,903 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:25:09,925 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:25:09,942 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:27:36,105 [Worker-661: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:27:36,150 [Worker-661: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:27:36,161 [Worker-661: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:28:15,006 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:28:15,078 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:28:15,099 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:30:26,274 [Worker-662: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:30:26,298 [Worker-662: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:30:26,318 [Worker-662: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:30:51,921 [Worker-664: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:30:51,934 [Worker-664: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:30:51,948 [Worker-664: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:31:46,392 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:31:46,419 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:31:46,431 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:31:59,841 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:31:59,864 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:31:59,877 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:32:29,069 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:32:29,108 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:32:29,125 [Worker-659: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 10:32:53,825 [Worker-664: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 10:32:53,840 [Worker-664: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 10:32:53,857 [Worker-664: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 11:40:00,768 [Worker-672: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 11:40:01,508 [Worker-672: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 11:40:01,529 [Worker-672: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 11:40:42,508 [Worker-673: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 11:40:42,691 [Worker-673: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 11:40:42,712 [Worker-673: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 11:41:46,855 [Worker-674: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 11:41:46,996 [Worker-674: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 11:41:47,011 [Worker-674: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:06:22,247 [Worker-675: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:06:22,273 [Worker-675: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:06:22,285 [Worker-675: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:07:21,104 [Worker-677: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:07:21,130 [Worker-677: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:07:21,141 [Worker-677: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:07:34,070 [Worker-676: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:07:34,252 [Worker-676: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:07:34,268 [Worker-676: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:08:58,243 [Worker-680: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:08:58,285 [Worker-680: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:08:58,296 [Worker-680: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:09:13,630 [Worker-680: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:09:13,651 [Worker-680: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:09:13,669 [Worker-680: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:09:51,297 [Worker-675: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:09:51,407 [Worker-675: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:09:51,420 [Worker-675: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:10:39,050 [Worker-679: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:10:39,127 [Worker-679: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:10:39,148 [Worker-679: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:22:15,741 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:22:15,870 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:22:15,898 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:22:48,669 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:22:48,784 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:22:48,798 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:23:02,781 [Worker-684: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:23:02,802 [Worker-684: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:23:02,819 [Worker-684: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:23:24,698 [Worker-684: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:23:24,712 [Worker-684: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:23:24,723 [Worker-684: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:29:24,312 [Worker-686: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:29:24,386 [Worker-686: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:29:24,398 [Worker-686: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:29:54,441 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:29:54,475 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:29:54,535 [Worker-681: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 12:30:13,635 [Worker-678: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 12:30:13,653 [Worker-678: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 12:30:13,671 [Worker-678: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:16:54,876 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:16:54,957 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:16:54,977 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:16:56,073 [Worker-703: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:16:56,126 [Worker-703: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:16:56,141 [Worker-703: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:17:33,622 [Worker-698: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:17:33,643 [Worker-698: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:17:33,660 [Worker-698: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:18:31,977 [Worker-698: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:18:31,988 [Worker-698: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:18:31,997 [Worker-698: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:22:35,288 [Worker-705: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:22:35,308 [Worker-705: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:22:35,325 [Worker-705: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:23:27,818 [Worker-705: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:23:27,838 [Worker-705: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:23:27,851 [Worker-705: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:23:42,188 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:23:42,210 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:23:42,223 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:23:56,070 [Worker-706: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:23:56,084 [Worker-706: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:23:56,110 [Worker-706: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:24:21,647 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:24:21,662 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:24:21,675 [Worker-702: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:37:54,160 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:37:54,223 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:37:54,241 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:38:26,323 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:38:26,373 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:38:26,392 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:38:58,091 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:38:58,149 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:38:58,169 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:41:33,690 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:41:33,734 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:41:33,747 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:42:48,159 [Worker-718: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:42:48,177 [Worker-718: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:42:48,189 [Worker-718: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:45:54,374 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:45:54,396 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:45:54,413 [Worker-715: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:46:12,578 [Worker-722: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:46:12,614 [Worker-722: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:46:12,634 [Worker-722: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:46:21,654 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:46:21,716 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:46:21,728 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:48:56,974 [Worker-721: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:48:57,001 [Worker-721: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:48:57,019 [Worker-721: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:49:23,082 [Worker-721: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:49:23,131 [Worker-721: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:49:23,143 [Worker-721: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:53:54,219 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:53:54,280 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:53:54,289 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:54:09,143 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:54:09,191 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:54:09,205 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:55:07,824 [Worker-728: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:55:07,840 [Worker-728: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:55:07,889 [Worker-728: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:56:39,481 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:56:39,507 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:56:39,519 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 13:58:43,510 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 13:58:43,576 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 13:58:43,597 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:05:57,807 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:05:57,878 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:05:57,896 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:06:34,540 [Worker-739: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:06:34,610 [Worker-739: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:06:34,624 [Worker-739: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:08:54,041 [Worker-739: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:08:54,063 [Worker-739: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:08:54,121 [Worker-739: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:09:04,017 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:09:04,039 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:09:04,053 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:11:12,713 [Worker-742: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:11:12,814 [Worker-742: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:11:12,832 [Worker-742: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:11:56,550 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:11:56,595 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:11:56,613 [Worker-731: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:13:07,601 [Worker-741: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:13:07,625 [Worker-741: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:13:07,636 [Worker-741: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 14:13:17,098 [Worker-734: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 14:13:17,213 [Worker-734: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 14:13:17,223 [Worker-734: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 15:33:36,228 [Worker-743: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 15:33:37,453 [Worker-743: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 15:33:37,470 [Worker-743: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 15:38:52,267 [Worker-749: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 15:38:52,505 [Worker-749: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 15:38:52,523 [Worker-749: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 15:39:39,513 [Worker-749: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 15:39:39,580 [Worker-749: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 15:39:39,602 [Worker-749: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 15:42:43,179 [Worker-754: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 15:42:43,281 [Worker-754: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 15:42:43,294 [Worker-754: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 15:44:52,422 [Worker-753: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 15:44:52,436 [Worker-753: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 15:44:52,450 [Worker-753: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 15:45:31,828 [Worker-753: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 15:45:31,872 [Worker-753: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 15:45:31,883 [Worker-753: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:09:12,279 [Worker-757: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:09:12,325 [Worker-757: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:09:12,350 [Worker-757: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:09:42,307 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:09:42,430 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:09:42,453 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:10:22,320 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:10:22,347 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:10:22,370 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:11:00,431 [Worker-757: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:11:00,484 [Worker-757: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:11:00,501 [Worker-757: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:11:19,465 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:11:19,485 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:11:19,510 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:11:45,592 [Worker-762: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:11:45,607 [Worker-762: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:11:45,623 [Worker-762: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:13:43,509 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:13:43,542 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:13:43,569 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:14:44,354 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:14:44,385 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:14:44,408 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:16:42,652 [Worker-763: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:16:42,673 [Worker-763: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:16:42,699 [Worker-763: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:16:53,862 [Worker-759: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:16:53,882 [Worker-759: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:16:53,911 [Worker-759: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:19:06,237 [Worker-766: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:19:06,269 [Worker-766: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:19:06,299 [Worker-766: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:19:36,691 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:19:36,716 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:19:36,738 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:20:17,239 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:20:17,258 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:20:17,276 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:20:47,803 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:20:47,819 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:20:47,841 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:21:52,794 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:21:52,814 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:21:52,839 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:27:01,072 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:27:01,128 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:27:01,140 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:28:11,568 [Worker-766: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:28:15,747 [Worker-766: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:28:15,774 [Worker-766: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:29:06,391 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:29:06,413 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:29:06,439 [Worker-765: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:34:59,750 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:34:59,787 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:34:59,804 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:35:18,099 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:35:18,128 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:35:18,140 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:40:34,735 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:40:34,774 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:40:34,791 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:41:06,453 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:41:06,483 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:41:06,498 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:41:33,243 [Worker-776: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:41:33,268 [Worker-776: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:41:33,280 [Worker-776: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:41:36,809 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:41:36,825 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:41:36,839 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:42:12,492 [Worker-776: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:42:12,507 [Worker-776: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:42:12,522 [Worker-776: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:42:20,880 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:42:20,895 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:42:20,907 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:42:46,630 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:42:46,656 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:42:46,672 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:42:55,769 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:42:55,789 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:42:55,801 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:56:41,590 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:56:41,639 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:56:41,652 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:57:10,368 [Worker-782: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:57:10,391 [Worker-782: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:57:10,410 [Worker-782: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-05 17:57:51,486 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-05 17:57:51,505 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-05 17:57:51,520 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 09:50:56,337 [Worker-816: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 09:50:56,551 [Worker-816: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 09:50:56,570 [Worker-816: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 09:51:18,427 [Worker-813: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 09:51:18,607 [Worker-813: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 09:51:18,624 [Worker-813: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 09:53:27,499 [Worker-818: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 09:53:27,595 [Worker-818: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 09:53:27,609 [Worker-818: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 09:53:41,507 [Worker-819: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 09:53:41,561 [Worker-819: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 09:53:41,579 [Worker-819: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:17:22,614 [Worker-825: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:17:22,685 [Worker-825: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:17:22,700 [Worker-825: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:17:27,940 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:17:27,970 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:17:27,988 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:18:20,141 [Worker-828: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:18:20,196 [Worker-828: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:18:20,216 [Worker-828: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:18:25,905 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:18:26,036 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:18:26,052 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:18:31,510 [Worker-826: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:18:31,529 [Worker-826: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:18:31,552 [Worker-826: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:19:09,769 [Worker-828: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:19:09,793 [Worker-828: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:19:09,810 [Worker-828: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:19:14,170 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:19:14,227 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:19:14,237 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:20:32,062 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:20:32,074 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:20:32,170 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:20:54,759 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:20:54,794 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:20:54,809 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:22:06,932 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:22:06,968 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:22:06,989 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:22:10,636 [Worker-834: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:22:10,662 [Worker-834: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:22:10,680 [Worker-834: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:25:00,217 [Worker-834: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:25:00,284 [Worker-834: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:25:00,299 [Worker-834: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:25:21,269 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:25:21,296 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:25:21,314 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:25:40,725 [Worker-839: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:25:40,748 [Worker-839: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:25:40,765 [Worker-839: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-06 11:25:45,587 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 11:25:45,746 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-06 11:25:45,757 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
