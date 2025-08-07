@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,4 +28,11 @@ public class InvoiceDetailController {
     public InvoiceDetail addInvoiceDetail(@RequestBody InvoiceDetail invoiceDetail) {
         return invoiceDetailService.createInvoiceDetail(invoiceDetail);
     }
+    
+    @GetMapping("/by-invoice/{invoiceId}")
+    public List<InvoiceDetail> getInvoiceDetailsByInvoice(@PathVariable int invoiceId) {
+        return invoiceDetailService.getInvoiceDetailsByInvoiceId(invoiceId);
+    }
+
 }
+

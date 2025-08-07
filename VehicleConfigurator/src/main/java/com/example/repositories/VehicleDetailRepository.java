@@ -1,6 +1,7 @@
 package com.example.repositories;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -17,6 +18,6 @@ public interface VehicleDetailRepository extends JpaRepository<VehicleDetail, In
     List<VehicleDetail> findByModel_ModelIdAndIsConfigurableTrue(int modelId);
     List<VehicleDetail> findByModel_ModelIdAndIsConfigurable(int modelId, char isConfigurable);
     List<VehicleDetail> findByModel_ModelIdAndCompTypeNotIn(Integer modelId, List<String> excludedTypes);
-    List<VehicleDetail> findByModelModelIdAndIsConfigurable(Integer modelId, String isConfigurable);
-
+    Optional<VehicleDetail> findByComponentCompId(Integer compId);
+    
 }

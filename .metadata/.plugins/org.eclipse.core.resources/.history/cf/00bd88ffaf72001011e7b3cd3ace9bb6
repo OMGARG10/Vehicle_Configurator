@@ -1,0 +1,86 @@
+package com.example.services;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.entities.Component;
+import com.example.entities.InvoiceDetail;
+import com.example.entities.InvoiceHeader;
+import com.example.repositories.ComponentRepository;
+import com.example.repositories.InvoiceDetailRepository;
+import com.example.repositories.InvoiceHeaderRepository;
+import com.example.repositories.ModelRepository;
+
+import ch.qos.logback.core.model.Model;
+
+@Service
+public class InvoiceHeaderService {
+    @Autowired
+    private InvoiceHeaderRepository invoiceHeaderRepository;
+
+    @Autowired
+    private ComponentRepository componentRepository;
+
+    @Autowired
+    private ModelRepository modelRepository;
+    
+    @Autowired
+    private InvoiceDetailRepository invoiceDetailRepository;
+
+
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderRepository.findAll();
+    }
+
+    public InvoiceHeader createInvoice(InvoiceHeader invoice) {
+        return invoiceHeaderRepository.save(invoice);
+    }
+    
+    public InvoiceHeader saveFullInvoice(
+    	    String custDetails,
+    	    Integer modelId,
+    	    int quantity,
+    	    BigDecimal totalAmount,
+    	    BigDecimal tax,
+    	    BigDecimal finalAmount,
+    	    List<Integer> defaultComponentIds,
+    	    List<Integer> alternateComponentIds
+    	) {
+    	    Model model = modelRepository.findById(modelId).orElseThrow();
+    	    InvoiceHeader header = new InvoiceHeader();
+    	    header.setModel(model);
+    	    header.setCustDetails(custDetails);
+    	    header.setInvDate(LocalDateTime.now());
+    	    header.setQuantity(quantity);
+    	    header.setTotalAmount(totalAmount);
+    	    header.setTax(tax);
+    	    header.setFinalAmount(finalAmount);
+
+    	    InvoiceHeader savedHeader = invoiceRepo.save(header);
+
+    	    // Save default components
+    	    for (Integer compId : defaultComponentIds) {
+    	        Component comp = componentRepository.findById(compId).orElseThrow();
+    	        InvoiceDetail detail = new InvoiceDetail();
+    	        detail.setInvoice(savedHeader);
+    	        detail.setComponent(comp);
+    	        detail.setIsAlternate("N");
+    	        invoiceDetailRepository.save(detail);
+    	    }
+
+    	    // Save alternate components
+    	    for (Integer compId : alternateComponentIds) {
+    	        Component comp = componentRepository.findById(compId).orElseThrow();
+    	        InvoiceDetail detail = new InvoiceDetail();
+    	        detail.setInvoice(savedHeader);
+    	        detail.setComponent(comp);
+    	        detail.setIsAlternate("Y");
+    	        invoiceDetailRepo.save(detail);
+    	    }
+
+    	    return savedHeader;
+    	}
+}

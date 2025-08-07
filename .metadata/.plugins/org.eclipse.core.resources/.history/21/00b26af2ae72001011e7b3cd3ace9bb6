@@ -1,0 +1,33 @@
+package com.example.services;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.entities.InvoiceHeader;
+import com.example.repositories.ComponentRepository;
+import com.example.repositories.InvoiceHeaderRepository;
+import com.example.repositories.ModelRepository;
+
+@Service
+public class InvoiceHeaderService {
+    @Autowired
+    private InvoiceHeaderRepository invoiceHeaderRepository;
+
+    @Autowired
+    private ComponentRepository componentRepository;
+
+    @Autowired
+    private ModelRepository modelRepository;
+    
+    @Autowired
+    private InvoiceDetailRepository invoiceDetailRepository;
+
+
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderRepository.findAll();
+    }
+
+    public InvoiceHeader createInvoice(InvoiceHeader invoice) {
+        return invoiceHeaderRepository.save(invoice);
+    }
+}

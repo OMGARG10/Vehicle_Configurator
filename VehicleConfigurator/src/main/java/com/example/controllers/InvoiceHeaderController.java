@@ -1,20 +1,21 @@
 package com.example.controllers;
 
-import java.util.List;
+import com.example.entities.InvoiceHeader;
+import com.example.entities.InvoiceWrapper;
+import com.example.services.InvoiceHeaderService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-import com.example.entities.InvoiceHeader;
-import com.example.services.InvoiceHeaderService;
+import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/invoices")
 public class InvoiceHeaderController {
+
     @Autowired
     private InvoiceHeaderService invoiceHeaderService;
 
@@ -23,8 +24,23 @@ public class InvoiceHeaderController {
         return invoiceHeaderService.getAllInvoices();
     }
 
+    @GetMapping("/{invId}")
+    public ResponseEntity<InvoiceHeader> getInvoiceById(@PathVariable int invId) {
+        return invoiceHeaderService.getInvoiceById(invId)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+    // Deprecated basic save
     @PostMapping
     public InvoiceHeader createInvoice(@RequestBody InvoiceHeader invoiceHeader) {
         return invoiceHeaderService.createInvoice(invoiceHeader);
+    }
+
+    // Main method used by React app
+    @PostMapping("/create")
+    public ResponseEntity<InvoiceHeader> createInvoice(@RequestBody InvoiceWrapper wrapper) {
+        InvoiceHeader savedHeader = invoiceHeaderService.createInvoice(wrapper);
+        return new ResponseEntity<>(savedHeader, HttpStatus.CREATED);
     }
 }

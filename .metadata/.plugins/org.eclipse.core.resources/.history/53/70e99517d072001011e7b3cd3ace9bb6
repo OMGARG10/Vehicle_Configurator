@@ -1,0 +1,91 @@
+package com.example.services;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.entities.Component;
+import com.example.entities.InvoiceDetail;
+import com.example.entities.InvoiceHeader;
+import com.example.entities.InvoiceWrapper;
+import com.example.repositories.ComponentRepository;
+import com.example.repositories.InvoiceDetailRepository;
+import com.example.repositories.InvoiceHeaderRepository;
+import jakarta.transaction.Transactional;
+
+@Service
+public class InvoiceHeaderService {
+
+    @Autowired
+    private InvoiceHeaderRepository invoiceHeaderRepo;
+
+    @Autowired
+    private InvoiceDetailRepository invoiceDetailRepo;
+
+    @Autowired
+    private ComponentRepository componentRepo;
+
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderRepo.findAll();
+    }
+
+    public Optional<InvoiceHeader> getInvoiceById(int invId) {
+        return invoiceHeaderRepo.findById(invId);
+    }
+
+    public InvoiceHeader createInvoice(InvoiceHeader invoice) {
+        return invoiceHeaderRepo.save(invoice);
+    }
+
+    @Transactional
+    @Transactional
+    public InvoiceHeader createInvoice(Map<String, Object> invoiceData) {
+        Integer modelId = (Integer) invoiceData.get("modelId");
+        Integer quantity = (Integer) invoiceData.get("quantity");
+        String custDetails = (String) invoiceData.get("custDetails");
+
+        if (modelId == null || quantity == null || custDetails == null) {
+            throw new IllegalArgumentException("modelId, quantity, and custDetails must not be null");
+        }
+
+        Model model = modelRepo.findByModelId(modelId)
+            .orElseThrow(() -> new RuntimeException("Model not found with id: " + modelId));
+
+        InvoiceHeader invoiceHeader = new InvoiceHeader();
+        invoiceHeader.setModel(model);
+        invoiceHeader.setQuantity(quantity);
+        invoiceHeader.setCustDetails(custDetails);
+        invoiceHeader.setInvDate(LocalDateTime.now());
+        invoiceHeader.setTotalAmount(BigDecimal.ZERO); // Placeholder
+        invoiceHeader.setTax(BigDecimal.ZERO); // Placeholder
+        invoiceHeader.setFinalAmount(BigDecimal.ZERO); // Placeholder
+
+        InvoiceHeader savedHeader = invoiceHeaderRepo.save(invoiceHeader);
+
+        List<Map<String, Object>> details = (List<Map<String, Object>>) invoiceData.get("details");
+        if (details != null) {
+            for (Map<String, Object> detailMap : details) {
+                Integer compId = (Integer) detailMap.get("compId");
+                String isAlternate = (String) detailMap.get("isAlternate");
+
+                Component component = componentRepo.findById(compId)
+                    .orElseThrow(() -> new RuntimeException("Component not found with id: " + compId));
+
+                InvoiceDetail invoiceDetail = new InvoiceDetail();
+                invoiceDetail.setInvoice(savedHeader);
+                invoiceDetail.setComponent(component);
+                invoiceDetail.setIsAlternate(isAlternate != null ? isAlternate : "N");
+
+                invoiceDetailRepo.save(invoiceDetail);
+            }
+        }
+
+        return savedHeader;
+    }
+
+}

@@ -1,0 +1,46 @@
+package com.example.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import com.example.entities.InvoiceHeader;
+import com.example.entities.InvoiceWrapper;
+import com.example.entities.InvoiceDetail;
+import com.example.services.InvoiceHeaderService;
+
+@RestController
+@RequestMapping("/invoices")
+public class InvoiceHeaderController {
+
+    @Autowired
+    private InvoiceHeaderService invoiceHeaderService;
+
+    @GetMapping
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderService.getAllInvoices();
+    }
+
+    @PostMapping
+    public InvoiceHeader createInvoice(@RequestBody InvoiceHeader invoiceHeader) {
+        return invoiceHeaderService.createInvoice(invoiceHeader);
+    }
+
+    @PostMapping("/create")
+    public ResponseEntity<InvoiceHeader> createInvoice(@RequestBody InvoiceWrapper wrapper) {
+        InvoiceHeader header = wrapper.getInvoiceHeader();
+        List<InvoiceDetail> details = wrapper.getInvoiceDetails();
+
+        InvoiceHeader createdInvoice = invoiceHeaderService.createInvoice(header, details);
+        return ResponseEntity.ok(createdInvoice);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<InvoiceHeader> getInvoice(@PathVariable int id) {
+        return invoiceHeaderService.getInvoiceById(id)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+}

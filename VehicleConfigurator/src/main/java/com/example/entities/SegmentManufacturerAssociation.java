@@ -49,4 +49,3 @@ public class SegmentManufacturerAssociation {
 		this.manufacturer = manufacturer;
 	}
 }
-

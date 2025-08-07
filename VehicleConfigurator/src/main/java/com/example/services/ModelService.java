@@ -54,6 +54,11 @@ public class ModelService {
     public List<Model> getModelsBySegment(Segment segment) {
         return modelRepository.findBySegment(segment);
     }
+    
+    public Model getModelById(Integer modelId) {
+        return modelRepository.findByModelId(modelId)
+            .orElseThrow(() -> new RuntimeException("Model not found with id: " + modelId));
+    }
 
     public List<Model> getModelsByManufacturerAndSegment(Manufacturer manufacturer, Segment segment) {
         return modelRepository.findByManufacturerAndSegment(manufacturer, segment);

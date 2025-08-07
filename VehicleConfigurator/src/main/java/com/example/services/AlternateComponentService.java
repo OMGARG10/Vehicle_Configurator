@@ -35,7 +35,7 @@ public class AlternateComponentService {
     public Map<Character, Map<Integer, List<AlternateComponent>>> getGroupedAlternatesByModel(Integer modelId) {
         // Get all components of the model which are configurable (Y)
         List<VehicleDetail> configurableComponents = vehicleDetailRepository
-                .findByModelModelIdAndIsConfigurable(modelId, "Y");
+                .findByModel_ModelIdAndIsConfigurable(modelId, 'Y');
 
         Map<Character, Map<Integer, List<AlternateComponent>>> result = new HashMap<>();
 

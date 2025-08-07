@@ -49,6 +49,13 @@ public class ModelController {
     public Model addModel(@RequestBody Model model) {
         return modelService.createModel(model);
     }
+    
+    @GetMapping("/{modelId}")
+    public ResponseEntity<Model> getModelById(@PathVariable Integer modelId) {
+        Model model = modelService.getModelById(modelId);
+        return ResponseEntity.ok(model);
+    }
+    
     @GetMapping("/by-segment/{segmentId}")
     public List<Model> getModelsBySegment(@PathVariable int segmentId) {
         Segment segment = segmentService.getSegmentById(segmentId);

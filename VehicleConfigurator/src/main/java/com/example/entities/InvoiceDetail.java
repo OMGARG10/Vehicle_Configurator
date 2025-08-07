@@ -1,9 +1,14 @@
 package com.example.entities;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "invoice_detail")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler", "invoice"})
 public class InvoiceDetail {
 
     @Id
@@ -12,12 +17,16 @@ public class InvoiceDetail {
     private int invDtlId;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "inv_id", nullable = false) // Matches FK in table
-    private InvoiceHeader invoice;
+    @JsonIgnore
+    @JoinColumn(name = "inv_id", nullable = false)
+    private InvoiceHeader invoiceHeader;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "comp_id", nullable = false) // Matches FK in table
+    @JoinColumn(name = "comp_id", nullable = false)
     private Component component;
+    
+    @Column(name = "is_alternate", length = 1, nullable = false)
+    private String isAlternate;
 
     // Getters and Setters
 
@@ -30,11 +39,11 @@ public class InvoiceDetail {
     }
 
     public InvoiceHeader getInvoice() {
-        return invoice;
+        return invoiceHeader;
     }
 
-    public void setInvoice(InvoiceHeader invoice) {
-        this.invoice = invoice;
+    public void setInvoiceHeader(InvoiceHeader invoice) {
+        this.invoiceHeader = invoice;
     }
 
     public Component getComponent() {
@@ -43,5 +52,13 @@ public class InvoiceDetail {
 
     public void setComponent(Component component) {
         this.component = component;
+    }
+
+    public String getIsAlternate() {
+        return isAlternate;
+    }
+
+    public void setIsAlternate(String isAlternate) {
+        this.isAlternate = isAlternate;
     }
 }

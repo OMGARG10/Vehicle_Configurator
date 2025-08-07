@@ -1,0 +1,75 @@
+package com.example.services;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.entities.Component;
+import com.example.entities.InvoiceDetail;
+import com.example.entities.InvoiceHeader;
+import com.example.repositories.ComponentRepository;
+import com.example.repositories.InvoiceDetailRepository;
+import com.example.repositories.InvoiceHeaderRepository;
+import com.example.repositories.ModelRepository;
+
+
+@Service
+public class InvoiceHeaderService {
+
+    @Autowired
+    private InvoiceHeaderRepository invoiceHeaderRepo;
+
+    @Autowired
+    private InvoiceDetailRepository invoiceDetailRepo;
+
+    @Autowired
+    private ModelRepository modelRepo;
+
+    @Autowired
+    private ComponentRepository componentRepo;
+
+    public InvoiceHeader saveFullInvoice(Map<String, Object> payload) {
+        // Parse header fields
+        int modelId = (Integer) payload.get("modelId");
+        int quantity = (Integer) payload.get("quantity");
+        String custDetails = (String) payload.get("custDetails");
+        BigDecimal totalAmount = new BigDecimal(payload.get("totalAmount").toString());
+        BigDecimal tax = new BigDecimal(payload.get("tax").toString());
+        BigDecimal finalAmount = new BigDecimal(payload.get("finalAmount").toString());
+
+        Model model = modelRepo.findById(modelId).orElseThrow(() -> new RuntimeException("Model not found"));
+
+        InvoiceHeader header = new InvoiceHeader();
+        header.setModel(model);
+        header.setQuantity(quantity);
+        header.setCustDetails(custDetails);
+        header.setTotalAmount(totalAmount);
+        header.setTax(tax);
+        header.setFinalAmount(finalAmount);
+        header.setInvDate(LocalDateTime.now());
+
+        InvoiceHeader savedHeader = invoiceHeaderRepo.save(header);
+
+        // Parse detail components (array of compId + isAlternate)
+        List<Map<String, Object>> components = (List<Map<String, Object>>) payload.get("components");
+
+        for (Map<String, Object> compData : components) {
+            int compId = (Integer) compData.get("compId");
+            String isAlt = (String) compData.get("isAlternate");
+
+            Component component = componentRepo.findById(compId)
+                    .orElseThrow(() -> new RuntimeException("Component not found"));
+
+            InvoiceDetail detail = new InvoiceDetail();
+            detail.setInvoice(savedHeader);
+            detail.setComponent(component);
+            detail.setIsAlternate(isAlt);
+
+            invoiceDetailRepo.save(detail);
+        }
+
+        return savedHeader;
+    }
+}

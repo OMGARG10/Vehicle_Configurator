@@ -1,0 +1,91 @@
+package com.example.services;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.entities.Component;
+import com.example.entities.InvoiceDetail;
+import com.example.entities.InvoiceHeader;
+import com.example.repositories.ComponentRepository;
+import com.example.repositories.InvoiceDetailRepository;
+import com.example.repositories.InvoiceHeaderRepository;
+import com.example.repositories.ModelRepository;
+
+import com.example.entities.Model;
+import jakarta.transaction.Transactional;
+
+@Service
+public class InvoiceHeaderService {
+	 @Autowired
+	    private InvoiceHeaderRepository invoiceHeaderRepo;
+
+	    @Autowired
+	    private InvoiceDetailRepository invoiceDetailRepo;
+
+	    @Autowired
+	    private ModelRepository modelRepo;
+
+	    @Autowired
+	    private ComponentRepository componentRepo;
+
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderRepo.findAll();
+    }
+
+    public InvoiceHeader createInvoice(InvoiceHeader invoice) {
+        return invoiceHeaderRepo.save(invoice);
+    }
+
+    @Transactional
+    public InvoiceHeader createInvoice(InvoiceHeader header, List<InvoiceDetail> details) {
+        // Save header first
+        InvoiceHeader savedHeader = invoiceHeaderRepo.save(header);
+
+        // Save each detail with reference to the saved header
+        for (InvoiceDetail detail : details) {
+            detail.setInvoice(savedHeader);
+            invoiceDetailRepo.save(detail);
+        }
+
+        return savedHeader;
+    }
+
+    public Optional<InvoiceHeader> getInvoiceById(int invId) {
+        return invoiceHeaderRepo.findById(invId);
+    }
+    @Transactional
+    public InvoiceHeader createInvoice(InvoiceHeader header, List<InvoiceDetail> details) {
+        // Fetch model by ID
+        Integer modelId = header.getModel() != null ? header.getModel().getModelId() : null;
+        if (modelId == null) {
+            throw new IllegalArgumentException("Model ID is required");
+        }
+        Model model = modelRepository.findById(modelId)
+                .orElseThrow(() -> new IllegalArgumentException("Invalid Model ID: " + modelId));
+        header.setModel(model);
+
+        // Set invoice header in details and resolve component entity
+        for (InvoiceDetail detail : details) {
+            Integer compId = detail.getComponent() != null ? detail.getComponent().getCompId() : null;
+            if (compId == null) {
+                throw new IllegalArgumentException("Component ID is required in invoice detail");
+            }
+            Component comp = componentRepository.findById(compId)
+                    .orElseThrow(() -> new IllegalArgumentException("Invalid Component ID: " + compId));
+            detail.setComponent(comp);
+            detail.setInvoiceHeader(header);
+        }
+
+        // Set the list of details to header
+        header.setInvoiceDetails(details);
+
+        // Save invoice header which cascades invoice details
+        return invoiceHeaderRepository.save(header);
+    }
+}

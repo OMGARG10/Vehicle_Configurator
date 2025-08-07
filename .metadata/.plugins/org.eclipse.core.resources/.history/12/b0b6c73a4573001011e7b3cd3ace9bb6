@@ -1,0 +1,121 @@
+package com.example.services;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.entities.Component;
+import com.example.entities.InvoiceDetail;
+import com.example.entities.InvoiceHeader;
+import com.example.entities.InvoiceWrapper;
+import com.example.entities.Model;
+import com.example.entities.User;
+import com.example.entities.VehicleDetail;
+import com.example.repositories.ComponentRepository;
+import com.example.repositories.InvoiceDetailRepository;
+import com.example.repositories.InvoiceHeaderRepository;
+import com.example.repositories.ModelRepository;
+import com.example.repositories.VehicleDetailRepository;
+
+import jakarta.transaction.Transactional;
+
+@Service
+public class InvoiceHeaderService {
+
+    @Autowired
+    private InvoiceHeaderRepository invoiceHeaderRepo;
+
+    @Autowired
+    private InvoiceDetailRepository invoiceDetailRepo;
+
+    @Autowired
+    private ComponentRepository componentRepo;
+    
+    @Autowired
+    private ModelRepository modelRepo;
+    
+    @Autowired
+    private User userRepo;
+    
+    @Autowired
+    private VehicleDetailRepository vehicleDetailRepos;
+
+    public List<InvoiceHeader> getAllInvoices() {
+        return invoiceHeaderRepo.findAll();
+    }
+
+    public Optional<InvoiceHeader> getInvoiceById(int invId) {
+        return invoiceHeaderRepo.findById(invId);
+    }
+
+    public InvoiceHeader createInvoice(InvoiceHeader invoice) {
+        return invoiceHeaderRepo.save(invoice);
+    }
+
+    public InvoiceHeader createInvoice(InvoiceWrapper wrapper) {
+        InvoiceHeader header = new InvoiceHeader();
+
+        // Fetch model and user from DB
+        Model model = modelRepo.findById(wrapper.getModelId())
+            .orElseThrow(() -> new RuntimeException("Model not found"));
+
+        User user = userRepo.findById(wrapper.getUserId())
+            .orElseThrow(() -> new RuntimeException("User not found"));
+
+        // Set basic info
+        header.setUser(user);
+        header.setModel(model);
+        header.setQuantity(wrapper.getQuantity());
+
+        // Calculate base price
+        BigDecimal baseAmount = model.getPrice().multiply(BigDecimal.valueOf(wrapper.getQuantity()));
+        BigDecimal altAmount = BigDecimal.ZERO;
+
+        List<InvoiceDetail> details = new ArrayList<>();
+
+        for (Integer compId : wrapper.getAlternateComponentIds()) {
+            Component comp = componentRepo.findById(compId)
+                .orElseThrow(() -> new RuntimeException("Component not found"));
+            altAmount = altAmount.add(comp.getPrice());
+
+            InvoiceDetail detail = new InvoiceDetail();
+            detail.setInvoiceHeader(header);
+            detail.setComponent(comp);
+            detail.setIsAlternate("Y");
+            details.add(detail);
+        }
+
+        List<VehicleDetail> defaultComps = vehicleDetailRepos
+            .findByModelModelIdAndIsConfigurable(model.getModelId(), 'N');
+
+        for (VehicleDetail vd : defaultComps) {
+            InvoiceDetail detail = new InvoiceDetail();
+            detail.setInvoiceHeader(header);
+            detail.setComponent(vd.getComponent());
+            detail.setIsAlternate("N");
+            details.add(detail);
+        }
+
+        BigDecimal finalAmt = baseAmount.add(altAmount);
+        BigDecimal tax = finalAmt.multiply(BigDecimal.valueOf(0.18)).setScale(2, RoundingMode.HALF_UP);
+        BigDecimal total = finalAmt.add(tax);
+
+        header.setFinalAmount(finalAmt);
+        header.setTax(tax);
+        header.setTotalAmount(total);
+        header.setInvDate(LocalDateTime.now());
+
+        header = invoiceHeaderRepository.save(header);
+        invoiceDetailRepository.saveAll(details);
+
+        return header;
+    }
+
+
+}

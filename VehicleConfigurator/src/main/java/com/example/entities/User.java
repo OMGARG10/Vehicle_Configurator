@@ -1,5 +1,7 @@
 package com.example.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -11,6 +13,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="user")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class User 
 {
 	private int userid;
@@ -30,6 +33,11 @@ public class User
 	private String company_vat_no;
 	private String tax_pan;
 	private holding_type holding_type;
+	@Column(nullable = false, unique = true)
+	private String email;
+
+	@Column(nullable = false)
+	private String password;
 	
 	public enum holding_type
 	{
@@ -37,9 +45,6 @@ public class User
 		Pvt_Ltd,
 		Ltd 
 	}
-	
-	private String email;
-	private String password;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

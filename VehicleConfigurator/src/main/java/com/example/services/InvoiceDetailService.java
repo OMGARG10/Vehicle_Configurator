@@ -18,4 +18,9 @@ public class InvoiceDetailService {
     public InvoiceDetail createInvoiceDetail(InvoiceDetail detail) {
         return invoiceDetailRepository.save(detail);
     }
+    
+    public List<InvoiceDetail> getInvoiceDetailsByInvoiceId(int invoiceId) {
+        return invoiceDetailRepository.findByInvoiceHeaderInvId(invoiceId);
+    }
+
 }
