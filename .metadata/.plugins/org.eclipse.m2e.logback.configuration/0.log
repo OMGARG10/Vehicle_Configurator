@@ -2753,3 +2753,445 @@
 2025-08-07 14:09:51,389 [Worker-1113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-08-07 14:09:51,524 [Worker-1113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
 2025-08-07 14:09:51,566 [Worker-1113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 15:30:57,633 [Worker-1123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 15:30:57,737 [Worker-1123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 15:30:57,747 [Worker-1123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 15:32:12,049 [Worker-1123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 15:32:12,133 [Worker-1123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 15:32:12,145 [Worker-1123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:20:40,093 [Worker-1149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:20:40,230 [Worker-1149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:20:40,245 [Worker-1149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:21:10,880 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:21:10,895 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:21:10,910 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:21:25,724 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:21:25,802 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:21:25,821 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:24:00,814 [Worker-1154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:24:00,834 [Worker-1154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:24:00,848 [Worker-1154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:24:48,291 [Worker-1151: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:24:48,327 [Worker-1151: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:24:48,341 [Worker-1151: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:24:53,268 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:24:53,343 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:24:53,482 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:25:15,362 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:25:15,383 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:25:15,396 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:25:19,386 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:25:19,398 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:25:19,417 [Worker-1151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:26:16,934 [Worker-1149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:26:16,947 [Worker-1149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:26:16,961 [Worker-1149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:26:38,770 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:26:38,782 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:26:38,794 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:27:25,897 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:27:26,007 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:27:26,025 [Worker-1153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:29:02,071 [Worker-1152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:02,092 [Worker-1152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:29:02,106 [Worker-1152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:33:58,924 [Worker-1156: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:VehicleConfigurator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\pom.xml.
+2025-08-07 16:34:00,337 [Worker-1156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:34:00,338 [Worker-1156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:34:00,340 [Worker-1156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:34:01,987 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27-sources.jar
+2025-08-07 16:34:04,441 [Worker-1158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:34:04,474 [Worker-1158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:34:04,554 [Worker-1158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:34:15,766 [Worker-1156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:34:15,771 [Worker-1156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:34:15,773 [Worker-1156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:34:29,897 [Worker-1157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:34:29,898 [Worker-1157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:34:29,976 [Worker-1157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:34:42,434 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27-sources.jar
+2025-08-07 16:34:42,439 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:pdfbox:2.0.27
+2025-08-07 16:34:42,554 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27-sources.jar
+2025-08-07 16:34:42,790 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27-sources.jar
+2025-08-07 16:34:42,794 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:fontbox:2.0.27
+2025-08-07 16:34:43,008 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2025-08-07 16:34:43,133 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2025-08-07 16:34:43,139 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2025-08-07 16:34:43,252 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar
+2025-08-07 16:34:43,425 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar
+2025-08-07 16:34:43,429 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.mail:mail:1.4.7
+2025-08-07 16:34:43,541 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2025-08-07 16:34:43,629 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2025-08-07 16:34:43,634 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1
+2025-08-07 16:34:43,755 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2-sources.jar
+2025-08-07 16:34:43,953 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2-sources.jar
+2025-08-07 16:34:43,956 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:javax.mail:1.6.2
+2025-08-07 16:34:44,140 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-mail/3.5.4/spring-boot-starter-mail-3.5.4-sources.jar
+2025-08-07 16:34:44,261 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-mail/3.5.4/spring-boot-starter-mail-3.5.4-sources.jar
+2025-08-07 16:34:44,266 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-mail:3.5.4
+2025-08-07 16:34:44,440 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.9/spring-context-support-6.2.9-sources.jar
+2025-08-07 16:34:44,869 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.9/spring-context-support-6.2.9-sources.jar
+2025-08-07 16:34:44,873 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:6.2.9
+2025-08-07 16:34:44,984 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3-sources.jar
+2025-08-07 16:34:45,168 [Worker-1155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3-sources.jar
+2025-08-07 16:34:45,172 [Worker-1155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.angus:jakarta.mail:2.0.3
+2025-08-07 16:34:45,595 [Worker-1159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:34:45,596 [Worker-1159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:34:45,597 [Worker-1159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:35:53,414 [Worker-1155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:35:53,445 [Worker-1155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:35:53,459 [Worker-1155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:38:33,532 [Worker-1160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:38:33,605 [Worker-1160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:38:33,619 [Worker-1160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:42:16,002 [Worker-1161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:42:16,056 [Worker-1161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:42:16,313 [Worker-1161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:44:48,235 [Worker-1162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:44:48,283 [Worker-1162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:44:48,295 [Worker-1162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:49:11,855 [Worker-1163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:49:11,905 [Worker-1163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:49:11,917 [Worker-1163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:49:23,131 [Worker-1162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:49:23,171 [Worker-1162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:49:23,186 [Worker-1162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 16:49:28,190 [Worker-1163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:49:28,226 [Worker-1163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 16:49:28,241 [Worker-1163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 17:07:13,849 [Worker-1166: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 17:07:15,308 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/main/java
+2025-08-07 17:07:15,309 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 17:07:15,331 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 17:07:15,352 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/test/java
+2025-08-07 17:07:16,381 [Worker-1166: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-08-07 17:07:16,385 [Worker-1166: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 17:07:17,084 [Worker-1166: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 17:07:18,581 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/main/java
+2025-08-07 17:07:18,582 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 17:07:18,582 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 17:07:18,584 [Worker-1166: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/test/java
+2025-08-07 17:07:19,112 [Worker-1166: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2025-08-07 17:07:20,852 [Worker-1173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:07:20,857 [Worker-1173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:07:20,859 [Worker-1173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:51:56,652 [Worker-1181: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 17:52:01,467 [Worker-1181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:52:01,468 [Worker-1181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:52:01,471 [Worker-1181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:52:01,654 [Worker-1183: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3-sources.jar
+2025-08-07 17:52:01,937 [Worker-1183: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3-sources.jar
+2025-08-07 17:52:01,943 [Worker-1183: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.itextpdf:itextpdf:5.5.13.3
+2025-08-07 17:52:03,878 [Worker-1177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:52:03,884 [Worker-1177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:52:03,887 [Worker-1177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:53:39,867 [Worker-1183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:53:39,869 [Worker-1183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:53:39,872 [Worker-1183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:54:21,960 [Worker-1182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:54:21,969 [Worker-1182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:54:21,971 [Worker-1182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:56:16,738 [Worker-1186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:56:16,957 [Worker-1186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:56:16,959 [Worker-1186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:56:52,426 [Worker-1188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:56:52,460 [Worker-1188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:56:52,463 [Worker-1188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:57:10,865 [Worker-1187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:57:14,816 [Worker-1187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:57:14,883 [Worker-1187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:57:21,893 [Worker-1189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:57:21,928 [Worker-1189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:57:21,972 [Worker-1189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:57:31,963 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:57:31,997 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:57:31,999 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:59:22,944 [Worker-1187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:59:23,026 [Worker-1187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:59:23,031 [Worker-1187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 17:59:32,066 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:59:32,221 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:59:32,223 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:08:29,067 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:08:29,187 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:08:29,193 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:10:40,681 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:10:40,825 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:10:40,827 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:10:44,940 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:10:45,128 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:10:45,132 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:11:11,969 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:11:12,028 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:11:12,032 [Worker-1185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:11:47,342 [Worker-1185: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:11:47,397 [Worker-1185: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:11:47,409 [Worker-1185: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:11:58,202 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:11:58,231 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:11:58,233 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:12:37,887 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:12:37,901 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:12:37,903 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:13:15,699 [Worker-1192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:13:15,743 [Worker-1192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:13:15,745 [Worker-1192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:13:51,796 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:13:51,969 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:13:51,979 [Worker-1193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:14:10,200 [Worker-1196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:14:10,246 [Worker-1196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:14:10,248 [Worker-1196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:14:45,442 [Worker-1192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:14:45,442 [Worker-1192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:14:45,448 [Worker-1192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:25:09,440 [Worker-1202: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 18:25:11,315 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:25:11,319 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:25:11,321 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:25:13,358 [Worker-1200: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:25:13,364 [Worker-1200: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:25:13,368 [Worker-1200: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:25:13,639 [Worker-1202: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.2/itextpdf-5.5.13.2-sources.jar
+2025-08-07 18:25:14,061 [Worker-1202: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.2/itextpdf-5.5.13.2-sources.jar
+2025-08-07 18:25:14,067 [Worker-1202: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.itextpdf:itextpdf:5.5.13.2
+2025-08-07 18:25:14,791 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:25:14,794 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:25:14,805 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:27:56,201 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:27:56,226 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:27:56,229 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:28:01,385 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:28:01,416 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:28:01,419 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:28:08,288 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:28:08,322 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:28:08,323 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:28:19,334 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:28:19,359 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:28:19,360 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:29:05,193 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:29:05,302 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:29:05,304 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:29:38,801 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:29:38,831 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:29:38,833 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:29:59,247 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:29:59,326 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:29:59,329 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:30:21,481 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:30:21,481 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:30:21,484 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:30:36,932 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:30:36,936 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:30:36,938 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:31:00,656 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:31:00,657 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:31:00,661 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:31:18,231 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:31:18,273 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:31:18,274 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:31:55,924 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:31:55,942 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:31:55,943 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:32:33,273 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:32:33,313 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:32:33,315 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:33:13,439 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:33:13,504 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:33:13,507 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:33:23,735 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:33:23,746 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:33:23,748 [Worker-1202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:33:42,478 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:33:42,510 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:33:42,512 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:33:54,865 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:33:54,909 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:33:54,911 [Worker-1204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:34:03,974 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:34:03,978 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:34:03,980 [Worker-1201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:34:21,977 [Worker-1203: Launching EmailPdfGenerator - EmailPdfGeneratorApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:34:22,142 [Worker-1203: Launching EmailPdfGenerator - EmailPdfGeneratorApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:34:22,144 [Worker-1203: Launching EmailPdfGenerator - EmailPdfGeneratorApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:34:44,677 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:34:44,695 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:34:44,700 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:34:50,509 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:34:50,529 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:34:50,531 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:36:05,742 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:36:05,763 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:36:05,862 [Worker-1207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:36:59,091 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:36:59,197 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:36:59,199 [Worker-1203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:38:40,940 [Worker-1209: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:38:40,999 [Worker-1209: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:38:41,001 [Worker-1209: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:41:47,293 [Worker-1208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:41:47,329 [Worker-1208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:41:47,334 [Worker-1208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:45:54,093 [Worker-1214: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:45:54,197 [Worker-1214: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:45:54,199 [Worker-1214: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:48:36,999 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:48:37,034 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:48:37,038 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:49:46,590 [Worker-1217: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 18:49:48,469 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:49:48,470 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:49:48,475 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:50:00,539 [Worker-1221: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 18:50:01,089 [Worker-1221: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 18:50:01,898 [Worker-1221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/main/java
+2025-08-07 18:50:01,898 [Worker-1221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 18:50:01,899 [Worker-1221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 18:50:01,899 [Worker-1221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/test/java
+2025-08-07 18:50:02,728 [Worker-1221: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2025-08-07 18:50:04,732 [Worker-1226: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:50:04,738 [Worker-1226: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:50:04,741 [Worker-1226: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:50:27,406 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:50:27,432 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:50:27,435 [Worker-1217: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:51:53,484 [Worker-1228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:51:53,561 [Worker-1228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:51:53,565 [Worker-1228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:52:37,399 [Worker-1227: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 18:52:38,521 [Worker-1227: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:VehicleConfigurator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\pom.xml.
+2025-08-07 18:52:39,037 [Worker-1227: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 18:52:40,559 [Worker-1227: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/main/java
+2025-08-07 18:52:40,560 [Worker-1227: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 18:52:40,561 [Worker-1227: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 18:52:40,562 [Worker-1227: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/test/java
+2025-08-07 18:52:41,423 [Worker-1227: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2025-08-07 18:52:42,744 [Worker-1221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:52:43,587 [Worker-1221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:52:43,590 [Worker-1221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:52:44,889 [Worker-1221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:52:44,890 [Worker-1221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:52:44,892 [Worker-1221: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 18:53:04,876 [Worker-1232: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:53:04,904 [Worker-1232: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:53:04,906 [Worker-1232: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 18:54:10,360 [Worker-1228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 18:54:10,427 [Worker-1228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 18:54:10,430 [Worker-1228: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:00:21,489 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:00:21,604 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:00:21,608 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:02:09,058 [Worker-1238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:02:09,134 [Worker-1238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:02:09,139 [Worker-1238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:04:10,072 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:04:10,170 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:04:10,174 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:04:23,009 [Worker-1238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:04:23,077 [Worker-1238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:04:23,095 [Worker-1238: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:04:37,618 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:04:37,653 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:04:37,659 [Worker-1227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:07:07,045 [Worker-1240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:07:07,146 [Worker-1240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:07:07,154 [Worker-1240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:08:31,227 [Worker-1242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:08:31,342 [Worker-1242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:08:31,344 [Worker-1242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:10:03,477 [Worker-1243: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 19:10:04,730 [Worker-1243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:10:04,732 [Worker-1243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:10:04,736 [Worker-1243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:10:07,970 [Worker-1239: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:10:07,983 [Worker-1239: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:10:07,986 [Worker-1239: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:10:15,406 [Worker-1245: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 19:10:16,172 [Worker-1245: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:VehicleConfigurator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\pom.xml.
+2025-08-07 19:10:16,488 [Worker-1245: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-07 19:10:17,651 [Worker-1245: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/main/java
+2025-08-07 19:10:17,651 [Worker-1245: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 19:10:17,652 [Worker-1245: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmailPdfGenerator/src/main/resources
+2025-08-07 19:10:17,653 [Worker-1245: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmailPdfGenerator/src/test/java
+2025-08-07 19:10:18,246 [Worker-1245: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2025-08-07 19:10:19,413 [Worker-1247: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:10:19,445 [Worker-1247: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:10:19,449 [Worker-1247: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:10:20,604 [Worker-1247: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:10:20,604 [Worker-1247: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:10:20,607 [Worker-1247: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 19:11:45,900 [Worker-1249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:11:45,968 [Worker-1249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:11:45,970 [Worker-1249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:11:54,053 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:11:54,157 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:11:54,159 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:13:01,993 [Worker-1242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:13:02,124 [Worker-1242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:13:02,127 [Worker-1242: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:13:09,668 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:13:09,825 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:13:09,829 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:13:20,744 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:13:20,770 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:13:20,774 [Worker-1248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:14:01,190 [Worker-1245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:14:01,247 [Worker-1245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:14:01,261 [Worker-1245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:19:58,708 [Worker-1252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:19:58,830 [Worker-1252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:19:58,835 [Worker-1252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:21:41,556 [Worker-1253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:21:41,588 [Worker-1253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:21:41,591 [Worker-1253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:24:17,801 [Worker-1246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:24:17,909 [Worker-1246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:24:17,916 [Worker-1246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:40:34,827 [Worker-1258: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:40:34,929 [Worker-1258: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 19:40:34,953 [Worker-1258: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 19:41:24,581 [Worker-1262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:41:24,598 [Worker-1262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 19:41:24,620 [Worker-1262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 19:43:01,734 [Worker-1264: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:43:01,759 [Worker-1264: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:43:01,761 [Worker-1264: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:43:07,338 [Worker-1265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:43:07,348 [Worker-1265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:43:07,350 [Worker-1265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 19:43:56,458 [Worker-1258: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:43:56,518 [Worker-1258: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 19:43:56,539 [Worker-1258: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 19:46:30,778 [Worker-1266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:46:30,841 [Worker-1266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 19:46:30,855 [Worker-1266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 19:46:49,890 [Worker-1266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:46:49,945 [Worker-1266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 19:46:49,962 [Worker-1266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 20:02:36,683 [Worker-1268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:02:36,808 [Worker-1268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-07 20:02:36,832 [Worker-1268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-07 20:03:43,057 [Worker-1274: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:03:43,118 [Worker-1274: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 20:03:43,170 [Worker-1274: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 21:09:40,465 [Worker-1138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 21:09:40,598 [Worker-1138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 21:09:40,600 [Worker-1138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 21:10:53,160 [Worker-1281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 21:10:55,874 [Worker-1281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 21:10:55,892 [Worker-1281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 21:12:32,029 [Worker-1286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 21:12:32,140 [Worker-1286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 21:12:32,171 [Worker-1286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-07 21:12:47,301 [Worker-1283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 21:12:47,388 [Worker-1283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 21:12:47,390 [Worker-1283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-08 10:11:05,127 [Worker-1291: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EmailPdfGenerator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\pom.xml.
+2025-08-08 10:11:07,789 [Worker-1291: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-08 10:11:07,791 [Worker-1291: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-08 10:11:07,799 [Worker-1291: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\EmailPdfGenerator\src\test\resources
+2025-08-08 10:11:12,422 [Worker-1288: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:VehicleConfigurator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\pom.xml.
+2025-08-08 10:11:14,281 [Worker-1288: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-08 10:11:14,282 [Worker-1288: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-08 10:11:14,287 [Worker-1288: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources

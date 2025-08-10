@@ -4,7 +4,9 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,10 +65,8 @@ public class InvoiceHeaderService {
     public InvoiceHeader createInvoice(InvoiceWrapper wrapper) {
         InvoiceHeader header = new InvoiceHeader();
 
-        // Fetch model and user
         Model model = modelRepo.findById(wrapper.getModelId())
                 .orElseThrow(() -> new RuntimeException("Model not found"));
-
         User user = userRepo.findById(wrapper.getUserId())
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
@@ -74,7 +74,7 @@ public class InvoiceHeaderService {
         header.setModel(model);
         header.setQuantity(wrapper.getQuantity());
 
-        // ✅ Set custDetails from User (excluding userid and password)
+        // Customer details string (same as before)
         String customerInfo =
                 "Name: " + user.getAuth_name() +
                 ", Tel: " + user.getAuth_tel() +
@@ -94,45 +94,49 @@ public class InvoiceHeaderService {
 
         header.setCustDetails(customerInfo);
 
-        // Calculate base and alternate amount
+        // Calculate base and alternate price
         BigDecimal baseAmount = model.getPrice().multiply(BigDecimal.valueOf(wrapper.getQuantity()));
         BigDecimal altAmount = BigDecimal.ZERO;
 
         List<InvoiceDetail> details = new ArrayList<>();
 
-        // Process alternate components
+        // Create a map of alternates from wrapper for quick lookup: compId -> isAlternate
+        Map<Integer, String> selectedAlternatesMap = new HashMap<>();
         for (InvoiceWrapper.InvoiceComponentDetail compDetail : wrapper.getDetails()) {
-            if ("Y".equalsIgnoreCase(compDetail.getIsAlternate())) {
-                int baseCompId = compDetail.getCompId();
-                AlternateComponent altComp = alternateComponentRepo
-                    .findByBaseComponentCompIdAndModelModelId(baseCompId, model.getModelId())
-                    .orElseThrow(() -> new RuntimeException(
-                        "Alternate Component not found for modelId: " + model.getModelId() + " and compId: " + baseCompId
-                    ));
-
-                altAmount = altAmount.add(altComp.getDeltaPrice());
-
-                InvoiceDetail detail = new InvoiceDetail();
-                detail.setInvoiceHeader(header);
-                detail.setComponent(altComp.getAlternateComponent());
-                detail.setIsAlternate("Y");
-                details.add(detail);
-            }
+            selectedAlternatesMap.put(compDetail.getCompId(), compDetail.getIsAlternate());
         }
 
-        // Add default non-configurable components
-        List<VehicleDetail> defaultComps = vehicleDetailRepo
-                .findByModel_ModelIdAndIsConfigurable(model.getModelId(), 'N');
+        // Get all default components for the model (configurable and non-configurable)
+        List<VehicleDetail> defaultComponents = vehicleDetailRepo.findByModel_ModelId(model.getModelId());
 
-        for (VehicleDetail vd : defaultComps) {
+        for (VehicleDetail vd : defaultComponents) {
+            int baseCompId = vd.getComponent().getCompId();
+
             InvoiceDetail detail = new InvoiceDetail();
             detail.setInvoiceHeader(header);
-            detail.setComponent(vd.getComponent());
-            detail.setIsAlternate("N");
+
+            // Check if this component is replaced by an alternate
+            String isAlternate = selectedAlternatesMap.getOrDefault(baseCompId, "N");
+
+            if ("Y".equalsIgnoreCase(isAlternate)) {
+                // Find the alternate component for this base component and model
+                AlternateComponent altComp = alternateComponentRepo
+                        .findByBaseComponentCompIdAndModelModelId(baseCompId, model.getModelId())
+                        .orElseThrow(() -> new RuntimeException(
+                                "Alternate Component not found for modelId: " + model.getModelId() + " and compId: " + baseCompId
+                        ));
+                altAmount = altAmount.add(altComp.getDeltaPrice());
+                detail.setComponent(altComp.getAlternateComponent());
+                detail.setIsAlternate("Y");
+            } else {
+                // No alternate selected, use default component
+                detail.setComponent(vd.getComponent());
+                detail.setIsAlternate("N");
+            }
             details.add(detail);
         }
 
-        // Final amount and tax
+        // Final amounts
         BigDecimal finalAmt = baseAmount.add(altAmount);
         BigDecimal tax = finalAmt.multiply(BigDecimal.valueOf(0.18)).setScale(2, RoundingMode.HALF_UP);
         BigDecimal total = finalAmt.add(tax);
@@ -148,5 +152,6 @@ public class InvoiceHeaderService {
 
         return header;
     }
+
 
 }
