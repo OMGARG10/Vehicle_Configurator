@@ -64,9 +64,18 @@ public class InvoiceWrapper {
 
     public static class InvoiceComponentDetail {
         private int compId;
-        private String isAlternate;  // "Y" or "N"
+        private String isAlternate;
+        private Integer selectedAltCompId;
 
-        public int getCompId() {
+        public Integer getSelectedAltCompId() {
+			return selectedAltCompId;
+		}
+
+		public void setSelectedAltCompId(Integer selectedAltCompId) {
+			this.selectedAltCompId = selectedAltCompId;
+		}
+
+		public int getCompId() {
             return compId;
         }
 

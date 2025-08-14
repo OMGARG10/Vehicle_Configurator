@@ -74,9 +74,8 @@ public class InvoiceHeaderService {
         header.setModel(model);
         header.setQuantity(wrapper.getQuantity());
 
-        // Customer details string (same as before)
-        String customerInfo =
-                "Name: " + user.getAuth_name() +
+        // Customer details
+        String customerInfo = "Name: " + user.getAuth_name() +
                 ", Tel: " + user.getAuth_tel() +
                 ", Cell: " + user.getCell() +
                 ", Email: " + user.getEmail() +
@@ -91,50 +90,52 @@ public class InvoiceHeaderService {
                 ", City: " + user.getCity() +
                 ", State: " + user.getState() +
                 ", PIN: " + user.getPin();
-
         header.setCustDetails(customerInfo);
 
-        // Calculate base and alternate price
+        // Pricing
         BigDecimal baseAmount = model.getPrice().multiply(BigDecimal.valueOf(wrapper.getQuantity()));
         BigDecimal altAmount = BigDecimal.ZERO;
 
         List<InvoiceDetail> details = new ArrayList<>();
 
-        // Create a map of alternates from wrapper for quick lookup: compId -> isAlternate
-        Map<Integer, String> selectedAlternatesMap = new HashMap<>();
+        // Map compId -> InvoiceComponentDetail for quick access
+        Map<Integer, InvoiceWrapper.InvoiceComponentDetail> selectedAlternatesMap = new HashMap<>();
         for (InvoiceWrapper.InvoiceComponentDetail compDetail : wrapper.getDetails()) {
-            selectedAlternatesMap.put(compDetail.getCompId(), compDetail.getIsAlternate());
+            selectedAlternatesMap.put(compDetail.getCompId(), compDetail);
         }
 
-        // Get all default components for the model (configurable and non-configurable)
         List<VehicleDetail> defaultComponents = vehicleDetailRepo.findByModel_ModelId(model.getModelId());
 
         for (VehicleDetail vd : defaultComponents) {
             int baseCompId = vd.getComponent().getCompId();
-
             InvoiceDetail detail = new InvoiceDetail();
             detail.setInvoiceHeader(header);
 
-            // Check if this component is replaced by an alternate
-            String isAlternate = selectedAlternatesMap.getOrDefault(baseCompId, "N");
+            InvoiceWrapper.InvoiceComponentDetail selectedDetail =
+                    selectedAlternatesMap.getOrDefault(baseCompId, null);
 
-            if ("Y".equalsIgnoreCase(isAlternate)) {
-                // Find the alternate component for this base component and model
-                AlternateComponent altComp = alternateComponentRepo
-                        .findByBaseComponentCompIdAndModelModelId(baseCompId, model.getModelId())
+            if (selectedDetail != null && "Y".equalsIgnoreCase(selectedDetail.getIsAlternate())
+                    && selectedDetail.getSelectedAltCompId() != null) {
+
+                // ✅ Fetch exact alternate chosen by user
+                AlternateComponent altComp = alternateComponentRepo.findById(selectedDetail.getSelectedAltCompId())
                         .orElseThrow(() -> new RuntimeException(
-                                "Alternate Component not found for modelId: " + model.getModelId() + " and compId: " + baseCompId
+                                "Alternate Component not found for ID: " + selectedDetail.getSelectedAltCompId()
                         ));
+
+                // Add price difference * quantity
                 altAmount = altAmount.add(
                         altComp.getDeltaPrice().multiply(BigDecimal.valueOf(wrapper.getQuantity()))
                 );
+
                 detail.setComponent(altComp.getAlternateComponent());
                 detail.setIsAlternate("Y");
             } else {
-                // No alternate selected, use default component
+                // No alternate — use default
                 detail.setComponent(vd.getComponent());
                 detail.setIsAlternate("N");
             }
+
             details.add(detail);
         }
 
@@ -148,12 +149,13 @@ public class InvoiceHeaderService {
         header.setTotalAmount(total);
         header.setInvDate(LocalDateTime.now());
 
-        // Save header and details
+        // Save
         header = invoiceHeaderRepo.save(header);
         invoiceDetailRepo.saveAll(details);
 
         return header;
     }
+
 
 
 }

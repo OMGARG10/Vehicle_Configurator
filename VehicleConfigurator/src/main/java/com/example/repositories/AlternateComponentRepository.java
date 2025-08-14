@@ -19,4 +19,6 @@ public interface AlternateComponentRepository extends JpaRepository<AlternateCom
     List<AlternateComponent> findByModelModelId(Integer modelId);
     List<AlternateComponent> findByModelModelIdAndBaseComponentCompId(Integer modelId, Integer compId);
     Optional<AlternateComponent> findByBaseComponentCompIdAndModelModelId(Integer baseCompId, Integer modelId);
+    Optional<AlternateComponent> findByAlternateComponentCompIdAndModelModelId(Integer altCompId, Integer modelId);
+    Optional<AlternateComponent> findById(Integer altId);
 }
