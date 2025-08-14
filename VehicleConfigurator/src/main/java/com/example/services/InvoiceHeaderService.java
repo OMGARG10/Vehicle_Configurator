@@ -125,7 +125,9 @@ public class InvoiceHeaderService {
                         .orElseThrow(() -> new RuntimeException(
                                 "Alternate Component not found for modelId: " + model.getModelId() + " and compId: " + baseCompId
                         ));
-                altAmount = altAmount.add(altComp.getDeltaPrice());
+                altAmount = altAmount.add(
+                        altComp.getDeltaPrice().multiply(BigDecimal.valueOf(wrapper.getQuantity()))
+                );
                 detail.setComponent(altComp.getAlternateComponent());
                 detail.setIsAlternate("Y");
             } else {

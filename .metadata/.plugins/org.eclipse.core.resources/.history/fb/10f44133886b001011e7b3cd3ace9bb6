@@ -1,9 +1,0 @@
-package com.example.repositories;
-
-@Repository
-public interface VehicleDetailRepository extends JpaRepository<VehicleDetail, Integer> {
-    List<VehicleDetail> findByModel(Model model);
-    List<VehicleDetail> findByModelModelId(int modelId);
-    List<VehicleDetail> findByIsConfigurable(char isConfigurable);
-    List<VehicleDetail> findByModelModelIdAndIsConfigurable(int modelId, char isConfigurable);
-}
