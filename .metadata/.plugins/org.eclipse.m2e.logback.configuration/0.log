@@ -3204,3 +3204,28 @@
 2025-08-10 17:44:16,298 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
 2025-08-11 18:14:58,879 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-08-13 10:16:43,753 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-15 20:56:45,983 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-20 10:53:03,011 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-20 10:53:50,335 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:VehicleConfigurator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\pom.xml.
+2025-08-20 10:53:56,270 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-20 10:53:56,294 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-20 10:53:56,369 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-20 10:53:58,936 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-20 10:53:58,946 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-20 10:53:59,019 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-20 11:04:38,568 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-20 11:04:38,611 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-20 11:04:38,627 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-20 11:04:54,374 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-20 11:04:54,389 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-20 11:04:54,405 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
+2025-08-20 11:22:30,911 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-20 11:27:54,356 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:VehicleConfigurator:0.0.1-SNAPSHOT @ C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\pom.xml.
+2025-08-20 11:27:55,544 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VehicleConfigurator/src/main/java
+2025-08-20 11:27:55,545 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VehicleConfigurator/src/main/resources
+2025-08-20 11:27:55,562 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VehicleConfigurator/src/main/resources
+2025-08-20 11:27:55,580 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VehicleConfigurator/src/test/java
+2025-08-20 11:27:56,229 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-08-20 11:27:58,380 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-20 11:27:58,405 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-08-20 11:27:58,462 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\omdee\OneDrive\Documents\VEHICLE_CONFIGURATOR\VehicleConfigurator\src\test\resources
